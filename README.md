@@ -1,4 +1,4 @@
-# Front in Poa
+# WearHacks
 
 ## Getting Started
 
@@ -10,7 +10,7 @@
 
 3. Now clone it:
 
-		git clone git://github.com/braziljs/front-in-poa.git
+		git clone git://github.com/turbosnail9/furry-octo-wookie.git
 
 4. Then go to the project's folder:
 
