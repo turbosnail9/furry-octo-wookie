@@ -27,8 +27,8 @@ module.exports = {
     // Site info
     site: {
       theme: "front-in-poa",
-      url: "http://frontinpoa.com.br",
-      googleanalytics: "UA-45100553-1"
+      url: "http://www.turbosnail9.github.io/furry-octo-wookie",
+      googleanalytics: "UA-52494250-1"
     },
 
     // Active sections on the website
