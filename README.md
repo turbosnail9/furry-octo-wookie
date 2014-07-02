@@ -25,3 +25,6 @@
 		docpad run
 
 Now you can see the website running in `localhost:9778`.
+
+7. You can deploy to Github pages by running:
+		docpad deploy-ghpages --env static
