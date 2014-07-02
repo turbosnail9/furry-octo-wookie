@@ -1,7 +1,7 @@
 div class: 'wrapper', ->
   h2 class: 'section-title', ->
-    span 'Saiba por que você não pode'
-    text ' perder o Front in Poa!'
+    span 'The first legit'
+    text ' Wearable Hackathon!'
 
   div class: 'about-text', itemprop: 'description', ->
     p ->
