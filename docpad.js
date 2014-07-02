@@ -11,7 +11,7 @@ module.exports = {
       description: "Let me hack your wearables baby!",
       date: "27-28 September",
       venue: "La Commune",
-      address: "Rua Cel. Genuíno, 130",
+      address: "440 Place Jacques Cartier",
       neighborhood: "Vieux Port",
       city: "Montréal",
       state: "Qc"
