@@ -12,9 +12,9 @@ module.exports = {
       date: "27-28 September",
       venue: "La Commune",
       address: "440 Place Jacques Cartier",
-      neighborhood: "Vieux Port",
+      neighborhood: "H2Y 3B3",
       city: "Montréal",
-      state: "Qc"
+      state: "QC"
     },
 
     // The Call To Action button at the header,
