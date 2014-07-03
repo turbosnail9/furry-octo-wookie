@@ -1,6 +1,6 @@
 div class: 'wrapper', ->
   h2 class: 'section-title', ->
-    'Apresentado por'
+    'Presented by'
   div class: 'presenter-profile', ->
     img src: 'https://0.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=200', class: 'presenter-photo'
     div class: 'presenter-name', 'Jean Carlo Emer'
