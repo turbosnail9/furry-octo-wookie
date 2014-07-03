@@ -161,7 +161,7 @@ module.exports = {
     schedule: [
       {
         time: "8:30",
-        name: "Credenciamento",
+        name: "Check-in",
         image: "images/schedule/check-in.svg"
       },
       {
@@ -249,12 +249,12 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Cure Studio Design",
+        name: "Oculus",
         logo: "images/sponsors/cure.svg",
         url: "http://curestudio.com.br"
       },
       {
-        name: "Grifo",
+        name: "Google",
         logo: "images/sponsors/grifo.svg",
         url: "http://gri.fo"
       },
@@ -273,29 +273,29 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "Abradi RS",
+        name: "MBient Lab",
         logo: "images/sponsors/abradi.svg",
-        url: "http://www.abradirs.com.br"
+        url: "https://www.mbientlab.com/"
       },
       {
-        name: "Codeminer42",
+        name: "Adafruit",
         logo: "images/sponsors/codeminer.svg",
-        url: "http://www.codeminer42.com"
+        url: "https://www.adafruit.com/"
       },
       {
-        name: "Brazil JS",
+        name: "Kiwi",
         logo: "images/sponsors/brazil-js.svg",
-        url: "http://braziljs.org"
+        url: "http://http://www.kiwimotion.io/"
       },
       {
-        name: "Editora Novatec",
+        name: "Neptune Pine",
         logo: "images/sponsors/novatec.svg",
         url: "http://novatec.com.br"
       },
       {
-        name: "Target Trust",
+        name: "Fitbit",
         logo: "images/sponsors/target-trust.svg",
-        url: "http://www.targettrust.com.br/"
+        url: "http://www.fitbit.com/"
       }
     ],
 
