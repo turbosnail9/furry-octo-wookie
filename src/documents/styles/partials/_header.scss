@@ -8,7 +8,7 @@
   }
 }
 .logo {
-  width: rem(320px);
+  width: rem(640px);
   max-width: 80%;
   margin: rem(20px) auto;
 }
@@ -16,8 +16,8 @@
   display: block;
   padding-bottom: percentage(170px / 320px);
   @extend %hide-text;
-  background: url(../images/front-in-poa.svg) no-repeat;
-  background-size: contain;
+  background: url(../images/front-in-poa.png) no-repeat;
+  background-size: 90%;
   @media screen and (min-width:$minor-viewport) {
     margin: rem(60px) auto;
   }

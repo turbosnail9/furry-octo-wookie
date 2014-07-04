@@ -385,15 +385,15 @@ a {
       padding-top: 4.375rem; } }
 
 .logo {
-  width: 20rem;
+  width: 40rem;
   max-width: 80%;
   margin: 1.25rem auto; }
 
 .logo-link {
   display: block;
   padding-bottom: 53.125%;
-  background: url(../images/front-in-poa.svg) no-repeat;
-  background-size: contain; }
+  background: url(../images/front-in-poa.png) no-repeat;
+  background-size: 90%; }
   @media screen and (min-width: 37.5rem) {
     .logo-link {
       margin: 3.75rem auto; } }
