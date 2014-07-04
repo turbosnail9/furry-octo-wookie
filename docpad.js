@@ -9,7 +9,7 @@ module.exports = {
     conf: {
       name: "WearHacks 2014",
       description: "Let me hack your wearables baby!",
-      date: "27-28 September",
+      date: "26-28 September",
       venue: "La Commune",
       address: "440 Place Jacques Cartier",
       neighborhood: "H2Y 3B3",

@@ -43,7 +43,7 @@
 
 .presenter-bio {
   @media screen and (min-width:$minor-viewport) {
-    width: percentage(640px/$site-width);
+    width: percentage(630px/$site-width);
     display: inline-block;
     vertical-align: top;
   }

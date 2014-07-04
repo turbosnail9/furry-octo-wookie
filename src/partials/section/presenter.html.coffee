@@ -7,4 +7,4 @@ div class: 'wrapper', ->
     a href: 'http://twitter.com/jcemer', target: '_blank', ->
       '@jcemer'
   p class: 'presenter-bio', ->
-    'Artesão da internet, cientista da computação, palestrante e desenvolvedor na Codeminer42. Adora aprender uma linguagem diferente, seja as do tipo que solucionam problemas aritméticos e lógicos, marcam, estilizam ou geram outras. Mantém um <a href="http://jcemer.com" target="_blank">blog pessoal</a>, é um dos criadores da <a href="http://ryejs.com" target="_blank">Rye.js</a> e defensor da pluralidade das bibliotecas aspirantes a superar a jQuery.'
+    'Artesão da internet, cientista da computação, palestrante e desenvolvedor na Codeminer42. Adora aprender uma linguagem diferente, seja as do tipo que solucionam problemas aritméticos e lógicos, marcam, estilizam ou geram outras. Mantém um blog pessoal, é um dos criadores da Rye.js e defensor da pluralidade das bibliotecas aspirantes a superar a jQuery.'
