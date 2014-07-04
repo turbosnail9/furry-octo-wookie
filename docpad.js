@@ -36,7 +36,7 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       "about",
-      "speakers",
+      //"speakers",
       "presenter",
       "schedule",
       "location",
@@ -48,7 +48,7 @@ module.exports = {
     navigation: [
       "home",
       "about",
-      "speakers",
+      //"speakers",
       "schedule",
       "location",
       "sponsors",
@@ -59,7 +59,7 @@ module.exports = {
     labels: {
       home: "Home",
       about: "About",
-      speakers: "Mentors",
+      //speakers: "Mentors",
       schedule: "Schedule",
       location: "Venue",
       organizers: "Organizers",
