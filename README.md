@@ -14,7 +14,7 @@
 
 4. Then go to the project's folder:
 
-		cd conf-boilerplate
+		cd furry-octo-wookie
 
 5. Install all dependencies:
 
