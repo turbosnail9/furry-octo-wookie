@@ -6,6 +6,7 @@ div class: 'wrapper', ->
   ul class: 'schedule', ->
     for @slot in @schedule
       li id: @scheduleId(@slot.name), class: "schedule-item schedule-item-#{if @slot.speaker then 'speaker' else 'other'}", ->
+        div class: 'schedule-day', @slot.date
         div class: 'schedule-intro', ->
           div class: 'schedule-intro-board', ->
             span class: 'schedule-time', @slot.time

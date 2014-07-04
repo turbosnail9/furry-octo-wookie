@@ -789,6 +789,17 @@ a {
     .schedule-intro-board {
       border-radius: 6px 25% 25% 6px/6px 50% 50% 6px; } }
 
+.schedule-day {
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 800;
+  text-align: center;
+  color: #5aa1b8;
+  margin: 0.625rem 0; }
+  @media screen and (min-width: 50rem) {
+    .schedule-day {
+      font-size: 1.75rem; } }
+
 .schedule-time, .schedule-image {
   width: 100%;
   display: block; }

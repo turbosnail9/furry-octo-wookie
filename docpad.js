@@ -35,14 +35,14 @@ module.exports = {
     // to deactivate comment out with "//"
     // you can also change order here and it will reflect on page
     sections: [
-      // "collaborate",
       "about",
       "speakers",
       "presenter",
       "schedule",
       "location",
       "organizers",
-      "sponsors"
+      "sponsors",
+      "collaborate"
     ],
 
     navigation: [
@@ -51,7 +51,8 @@ module.exports = {
       "speakers",
       "schedule",
       "location",
-      "sponsors"
+      "sponsors",
+      "collaborate"
     ],
 
     // Labels which you can translate to other languages
@@ -62,7 +63,8 @@ module.exports = {
       schedule: "Schedule",
       location: "Venue",
       organizers: "Organizers",
-      sponsors: "Sponsors"
+      sponsors: "Sponsors",
+      collaborate: "Contact"
     },
 
     // List of speakers
@@ -160,6 +162,7 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
+        date: "Sep 26",
         time: "8:30",
         name: "Check-in",
         image: "images/schedule/check-in.svg"
@@ -178,7 +181,7 @@ module.exports = {
       },
       {
         time: "10:00",
-        name: "Cafezinho rápido",
+        name: "Coffee",
         image: "images/schedule/coffee.svg"
       },
       {
@@ -224,7 +227,7 @@ module.exports = {
       },
       {
         time: "16:00",
-        name: "Cafezinho",
+        name: "Coffee",
         image: "images/schedule/coffee.svg"
       },
       {
@@ -241,7 +244,7 @@ module.exports = {
       },
       {
         time: "18:20",
-        name: "Encerramento",
+        name: "Closing",
         image: "images/schedule/closing.svg"
       }
     ],

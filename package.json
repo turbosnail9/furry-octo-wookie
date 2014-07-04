@@ -1,11 +1,11 @@
 {
   "name": "FrontInPoa",
   "version": "0.2.0",
-  "description": "Front in Poa event website",
-  "homepage": "http://frontinpoa.com.br",
+  "description": "Wearhacks website",
+  "homepage": "http://www.wearhacks.com",
   "repository": {
     "type": "git",
-    "url": "http://github.com/braziljs/front-in-poa.git"
+    "url": "https://github.com/turbosnail9/furry-octo-wookie.git"
   },
   "engines": {
     "node": ">0.8.x",
