@@ -39,7 +39,7 @@
 }
 .collaborate-title {
   margin: 0 auto;
-  width: 100%;
+  text-align: center;
   font-size: rem(28px);
   text-transform: uppercase;
   span {
@@ -57,8 +57,7 @@
 .collaborate-link {
   @include button;
   margin: 0 auto;
-  margin-left: 39%;
-  margin-right: 39%;
+  text-align: center;
   margin-top: rem(4px);
   @media screen and (min-width:$minor-viewport) {
     margin-top: rem(14px);
