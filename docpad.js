@@ -38,10 +38,10 @@ module.exports = {
       "about",
       //"speakers",
       "presenter",
-      "schedule",
+      //"schedule",
       "location",
       "organizers",
-      "sponsors",
+      //"sponsors",
       "collaborate"
     ],
 
@@ -49,9 +49,9 @@ module.exports = {
       "home",
       "about",
       //"speakers",
-      "schedule",
+      //"schedule",
       "location",
-      "sponsors",
+      //"sponsors",
       "collaborate"
     ],
 
@@ -60,10 +60,10 @@ module.exports = {
       home: "Home",
       about: "About",
       //speakers: "Mentors",
-      schedule: "Schedule",
+      //schedule: "Schedule",
       location: "Venue",
       organizers: "Organizers",
-      sponsors: "Sponsors",
+      //sponsors: "Sponsors",
       collaborate: "Contact"
     },
 

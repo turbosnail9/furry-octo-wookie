@@ -1,7 +1,7 @@
 .section-collaborate {
   @include texture("blue");
   p {
-    text-align: left;
+    text-align: center;
   }
   @media screen and (min-width:$minor-viewport) {
     padding: rem(50px) 0;
@@ -38,7 +38,9 @@
   }
 }
 .collaborate-title {
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
+  margin-left: 36%;
   font-size: rem(28px);
   text-transform: uppercase;
   span {
@@ -55,6 +57,9 @@
 }
 .collaborate-link {
   @include button;
+  margin: 0 auto;
+  margin-left: 39%;
+  margin-right: 39%;
   margin-top: rem(4px);
   @media screen and (min-width:$minor-viewport) {
     margin-top: rem(14px);
