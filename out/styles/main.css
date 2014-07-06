@@ -637,12 +637,16 @@ a {
   width: 10%;
   height: 10%;
   margin-bottom: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
   display: inline-block; }
 
 .about-equal {
   width: 8%;
   height: 8%;
   margin-bottom: 7%;
+  margin-left: 3%;
+  margin-right: 3%;
   display: inline-block; }
 
 .cycle-slideshow {
@@ -1057,11 +1061,18 @@ a {
   display: inline-block;
   max-width: 80%;
   margin-top: 1.25rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.25rem;
   border-bottom: #f13c47 solid 0.625rem; }
   .credits a {
     color: #f13c47; }
   @media screen and (min-width: 37.5rem) {
     .credits {
       margin-top: 2.5rem;
-      padding-bottom: 5rem; } }
+      padding-bottom: 2.5rem; } }
+
+.image-credits {
+  display: block;
+  max-width: 80%;
+  margin-top: 1.25rem; }
+  .image-credits a {
+    color: #f13c47; }
