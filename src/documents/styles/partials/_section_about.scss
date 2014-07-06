@@ -4,3 +4,16 @@
     width: 70%;
   }
 }
+.about-photo {
+  width: 35%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.about-plus{
+  width: 10%;
+  height: 10%;
+  margin-top: 10%;
+  margin-left: 8%;
+  @extend %grayscale;
+}

@@ -37,12 +37,12 @@ module.exports = {
     sections: [
       "about",
       //"speakers",
-      "presenter",
+      //"presenter",
       //"schedule",
       "location",
       "organizers",
-      //"sponsors",
-      "collaborate"
+      //"sponsors", 
+      "collaborate" 
     ],
 
     navigation: [
@@ -52,6 +52,7 @@ module.exports = {
       //"schedule",
       "location",
       //"sponsors",
+      "organizers",
       "collaborate"
     ],
 
