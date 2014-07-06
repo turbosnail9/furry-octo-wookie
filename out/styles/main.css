@@ -628,16 +628,22 @@ a {
       width: 70%; } }
 
 .about-photo {
-  width: 35%;
-  border-radius: 50%;
+  width: 150px;
+  border-radius: 40%;
   display: block;
   margin: 0 auto; }
 
 .about-plus {
   width: 10%;
   height: 10%;
-  margin-top: 10%;
-  margin-left: 8%; }
+  margin-bottom: 6%;
+  display: inline-block; }
+
+.cycle-slideshow {
+  width: 150px;
+  height: 150px;
+  vertical-align: 0;
+  display: inline-block; }
 
 .section-speakers {
   background: url("../images/texture-dark-blue.jpg") center center;
