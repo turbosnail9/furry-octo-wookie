@@ -17,6 +17,13 @@
   display: inline-block;
   @extend %grayscale;
 }
+.about-equal{
+  width: 8%;
+  height: 8%;
+  margin-bottom: 7%;
+  display: inline-block;
+  @extend %grayscale;
+}
 .cycle-slideshow{
   width: 20%;
   height: 100%;
