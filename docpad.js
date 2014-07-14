@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "WearHacks 2014",
-      description: "Let me hack your wearables baby!",
+      description: "",
       date: "26-28 September",
       venue: "La Commune",
       address: "440 Place Jacques Cartier",
@@ -21,7 +21,7 @@ module.exports = {
     // If you don"t want this, just remove the callToAction property.
     callToAction: {
       text: "Register Here!",
-      link: "http://www.eventbrite.ca"
+      link: "https://www.eventbrite.ca/e/wearhacks-2014-tickets-12179086977"
     },
 
     // Site info
