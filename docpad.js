@@ -41,7 +41,7 @@ module.exports = {
       //"schedule",
       "location",
       "organizers",
-      //"sponsors", 
+      "sponsors", 
       "collaborate" 
     ],
 
@@ -51,7 +51,7 @@ module.exports = {
       //"speakers",
       //"schedule",
       "location",
-      //"sponsors",
+      "sponsors",
       "organizers",
       "collaborate"
     ],
@@ -64,7 +64,7 @@ module.exports = {
       //schedule: "Schedule",
       location: "Venue",
       organizers: "Organizers",
-      //sponsors: "Sponsors",
+      sponsors: "Sponsors",
       collaborate: "Contact"
     },
 
@@ -253,54 +253,54 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Oculus",
-        logo: "images/sponsors/cure.svg",
-        url: "http://curestudio.com.br"
-      },
-      {
-        name: "Google",
-        logo: "images/sponsors/grifo.svg",
-        url: "http://gri.fo"
-      },
-      {
-        name: "Senac",
-        logo: "images/sponsors/senac.svg",
-        url: "http://portal.senacrs.com.br"
-      },
-      {
-        name: "Terra",
-        logo: "images/sponsors/terra.svg",
-        url: "http://terra.com.br"
+        name: "La Commune",
+        logo: "images/sponsors/LaCommunelogo.png",
+        url: "http://www.lacommune.ca/index.php/en/"
       }
+      // {
+      //   name: "Google",
+      //   logo: "images/sponsors/grifo.svg",
+      //   url: "http://gri.fo"
+      // },
+      // {
+      //   name: "Senac",
+      //   logo: "images/sponsors/senac.svg",
+      //   url: "http://portal.senacrs.com.br"
+      // },
+      // {
+      //   name: "Terra",
+      //   logo: "images/sponsors/terra.svg",
+      //   url: "http://terra.com.br"
+      // }
     ],
 
     // List of Partners
     partners: [
-      {
-        name: "MBient Lab",
-        logo: "images/sponsors/abradi.svg",
-        url: "https://www.mbientlab.com/"
-      },
-      {
-        name: "Adafruit",
-        logo: "images/sponsors/codeminer.svg",
-        url: "https://www.adafruit.com/"
-      },
-      {
-        name: "Kiwi",
-        logo: "images/sponsors/brazil-js.svg",
-        url: "http://http://www.kiwimotion.io/"
-      },
-      {
-        name: "Neptune Pine",
-        logo: "images/sponsors/novatec.svg",
-        url: "http://novatec.com.br"
-      },
-      {
-        name: "Fitbit",
-        logo: "images/sponsors/target-trust.svg",
-        url: "http://www.fitbit.com/"
-      }
+      // {
+      //   name: "MBient Lab",
+      //   logo: "images/sponsors/abradi.svg",
+      //   url: "https://www.mbientlab.com/"
+      // },
+      // {
+      //   name: "Adafruit",
+      //   logo: "images/sponsors/codeminer.svg",
+      //   url: "https://www.adafruit.com/"
+      // },
+      // {
+      //   name: "Kiwi",
+      //   logo: "images/sponsors/brazil-js.svg",
+      //   url: "http://http://www.kiwimotion.io/"
+      // },
+      // {
+      //   name: "Neptune Pine",
+      //   logo: "images/sponsors/novatec.svg",
+      //   url: "http://novatec.com.br"
+      // },
+      // {
+      //   name: "Fitbit",
+      //   logo: "images/sponsors/target-trust.svg",
+      //   url: "http://www.fitbit.com/"
+      // }
     ],
 
     nameId: function (name) {
