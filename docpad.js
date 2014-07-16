@@ -40,8 +40,8 @@ module.exports = {
       //"presenter",
       //"schedule",
       "location",
-      "organizers",
-      "sponsors", 
+      "sponsors",
+      "organizers", 
       "collaborate" 
     ],
 
@@ -63,8 +63,8 @@ module.exports = {
       //speakers: "Mentors",
       //schedule: "Schedule",
       location: "Venue",
-      organizers: "Organizers",
       sponsors: "Sponsors",
+      organizers: "Organizers",
       collaborate: "Contact"
     },
 
