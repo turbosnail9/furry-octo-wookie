@@ -254,7 +254,8 @@ module.exports = {
     sponsors: [
       {
         name: "La Commune",
-        logo: "images/sponsors/LaCommunelogo.png",
+        logo: "images/sponsors/LaCommunelogo2.png",
+        logo2: "images/sponsors/LaCommunelogo.png",
         url: "http://www.lacommune.ca/index.php/en/"
       }
       // {
