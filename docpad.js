@@ -251,32 +251,44 @@ module.exports = {
     ],
 
     // List of Sponsors
-    sponsors: [
+    sponsorswalle: [
+     // {
+     //   name: "La Commune",
+     //   logo: "images/sponsors/LaCommunelogo2.png",
+     //   url: "http://www.lacommune.ca/index.php/en/"
+     // }
+    ],
+    sponsorsr2d2: [
+    //  {
+    //    name: "La Commune",
+      //   logo: "images/sponsors/LaCommunelogo2.png",
+      //   url: "http://www.lacommune.ca/index.php/en/"
+      // }
+    ],
+    sponsorst1000: [
       {
         name: "La Commune",
         logo: "images/sponsors/LaCommunelogo2.png",
-        logo2: "images/sponsors/LaCommunelogo.png",
         url: "http://www.lacommune.ca/index.php/en/"
       }
+    ],
+    sponsorsoptimus: [
       // {
-      //   name: "Google",
-      //   logo: "images/sponsors/grifo.svg",
-      //   url: "http://gri.fo"
-      // },
+      //   name: "La Commune",
+      //   logo: "images/sponsors/LaCommunelogo2.png",
+      //   url: "http://www.lacommune.ca/index.php/en/"
+      // }
+    ],
+    sponsorssingularity: [
       // {
-      //   name: "Senac",
-      //   logo: "images/sponsors/senac.svg",
-      //   url: "http://portal.senacrs.com.br"
-      // },
-      // {
-      //   name: "Terra",
-      //   logo: "images/sponsors/terra.svg",
-      //   url: "http://terra.com.br"
+      //   name: "La Commune",
+      //   logo: "images/sponsors/LaCommunelogo2.png",
+      //   url: "http://www.lacommune.ca/index.php/en/"
       // }
     ],
 
     // List of Partners
-    partners: [
+    //partners: [
       // {
       //   name: "MBient Lab",
       //   logo: "images/sponsors/abradi.svg",
@@ -302,7 +314,7 @@ module.exports = {
       //   logo: "images/sponsors/target-trust.svg",
       //   url: "http://www.fitbit.com/"
       // }
-    ],
+    //],
 
     nameId: function (name) {
       return name.toLowerCase().replace(/\s+/g, '-').replace(/[.!:?;,]/g, '');

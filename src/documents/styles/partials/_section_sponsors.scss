@@ -14,17 +14,34 @@
     margin-bottom: rem(50px);
   }
 }
-.sponsor-item, .partner-item {
+.sponsor-item, .partner-item-walle, .partner-item-r2d2,.partner-item-t1000,.partner-item-optimus,.partner-item-singularity{
   width: 20%;
   margin: 0 .5% 2% .5%;
   min-width: rem(150px);
   display: inline-block;
 }
-.partner-item {
+
+.partner-item-walle {
   width: 10%;
+  min-width: rem(100px);
+}
+.partner-item-r2d2 {
+  width: 15%;
+  min-width: rem(100px);
+}
+.partner-item-t1000 {
+  width: 20%;
+  min-width: rem(100px);
+}
+.partner-item-optimus {
+  width: 25%;
+  min-width: rem(100px);
+}
+.partner-item-singularity {
+  width: 30%;
   min-width: rem(100px);
 }
 .sponsor-logo, .partner-logo {
   display: block;
-  width: 100%;
+  width: 100%;  
 }
