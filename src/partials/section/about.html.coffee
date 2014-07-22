@@ -13,15 +13,18 @@ div class: 'wrapper', ->
       div class: 'cycle-slideshow', data-index: 1, ->
         img src: '/images/wearables/coffee.svg', class: 'about-photo'
         img src: '/images/wearables/worker.svg', class: 'about-photo'
-        
+        img src: '/images/wearables/idea.svg', class: 'about-photo'
+
       img src: '/images/wearables/plus.png', class: 'about-plus'
 
       div class: 'cycle-slideshow', data-index: 2, ->
-        img src: 'http://ecx.images-amazon.com/images/I/51Bq5lOBksL._SY300_.jpg', class: 'about-photo'
+        img src: '/images/wearables/estimote.png', class: 'about-photo'
         img src: '/images/wearables/meta.png', class: 'about-photo'
+        img src: '/images/wearables/black_myo_top.png', class: 'about-photo'
 
       img src: '/images/wearables/equal.png', class: 'about-equal'  
 
       div class: 'cycle-slideshow', data-index: 3, ->
         img src: '/images/wearables/wow.svg', class: 'about-photo'
         img src: '/images/wearables/money.svg', class: 'about-photo'
+        img src: '/images/wearables/excited.svg', class: 'about-photo'
