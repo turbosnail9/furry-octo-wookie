@@ -1,5 +1,5 @@
 .section-sponsors {
-  @include texture("dark-blue");
+  /*@include texture("blue");*/
 }
 
 .sponsors-list, .partners-list {
@@ -38,7 +38,7 @@
   min-width: rem(100px);
 }
 .partner-item-singularity {
-  width: 30%;
+  width: 40%;
   min-width: rem(100px);
 }
 .sponsor-logo, .partner-logo {

@@ -1024,9 +1024,6 @@ a {
   margin-top: 0.625rem;
   font-weight: 800; }
 
-.section-sponsors {
-  background: url("../images/texture-dark-blue.jpg") center center;
-  background-size: 200px 200px; }
 
 .sponsors-list, .partners-list {
   list-style: none;
@@ -1063,7 +1060,7 @@ a {
   min-width: 6.25rem; }
 
 .partner-item-singularity {
-  width: 30%;
+  width: 40%;
   min-width: 6.25rem; }
 
 .sponsor-logo, .partner-logo {

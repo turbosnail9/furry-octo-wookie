@@ -251,12 +251,40 @@ module.exports = {
     ],
 
     // List of Sponsors
-    sponsorswalle: [
-     // {
-     //   name: "La Commune",
-     //   logo: "images/sponsors/LaCommunelogo2.png",
-     //   url: "http://www.lacommune.ca/index.php/en/"
-     // }
+    
+    
+    sponsorssingularity: [
+      // {
+      //   name: "La Commune",
+      //   logo: "images/sponsors/LaCommunelogo2.png",
+      //   url: "http://www.lacommune.ca/index.php/en/"
+      // }
+    ],
+    sponsorsoptimus: [
+      
+       {
+         name: "Thalmic Labs",
+         logo: "images/sponsors/thalmic_labs_logo.jpg",
+         url: "https://www.thalmic.com/en/myo/"
+       }
+    ],
+    sponsorst1000: [
+      {
+        name: "La Commune",
+        logo: "images/sponsors/LaCommunelogo.png",
+        url: "http://www.lacommune.ca/index.php/en/"
+      },
+      
+      {
+		name: "Estimote",
+		logo: "images/sponsors/estimote-logo.png",
+		url: "http://estimote.com/"
+	  },
+      {
+        name: "Mbient Lab",
+        logo: "images/sponsors/mbient-logo.png",
+        url: "https://www.mbientlab.com/"
+      }
     ],
     sponsorsr2d2: [
     //  {
@@ -265,26 +293,13 @@ module.exports = {
       //   url: "http://www.lacommune.ca/index.php/en/"
       // }
     ],
-    sponsorst1000: [
-      {
-        name: "La Commune",
-        logo: "images/sponsors/LaCommunelogo2.png",
-        url: "http://www.lacommune.ca/index.php/en/"
-      }
-    ],
-    sponsorsoptimus: [
-      // {
-      //   name: "La Commune",
-      //   logo: "images/sponsors/LaCommunelogo2.png",
-      //   url: "http://www.lacommune.ca/index.php/en/"
-      // }
-    ],
-    sponsorssingularity: [
-      // {
-      //   name: "La Commune",
-      //   logo: "images/sponsors/LaCommunelogo2.png",
-      //   url: "http://www.lacommune.ca/index.php/en/"
-      // }
+
+ 	sponsorswalle: [
+     // {
+     //   name: "La Commune",
+     //   logo: "images/sponsors/LaCommunelogo2.png",
+     //   url: "http://www.lacommune.ca/index.php/en/"
+     // }
     ],
 
     // List of Partners
