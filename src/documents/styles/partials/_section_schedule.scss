@@ -37,12 +37,12 @@
 .schedule-day {
   font-size: rem(28px);
   line-height: 1.3;
-  font-weight: 800;
+  font-weight: 900;
   text-align: center;
-  color: #5aa1b8;
+  color: #5670C5;
   margin: rem(10px) 0;
   @media screen and (min-width:$medium-viewport) {
-    font-size: rem(28px);
+    font-size: rem(38px);
   }
 }
 .schedule-time, .schedule-image {

@@ -28,3 +28,4 @@ div class: 'wrapper', ->
         img src: '/images/wearables/wow.svg', class: 'about-photo'
         img src: '/images/wearables/money.svg', class: 'about-photo'
         img src: '/images/wearables/excited.svg', class: 'about-photo'
+

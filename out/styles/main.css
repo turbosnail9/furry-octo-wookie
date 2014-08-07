@@ -823,13 +823,13 @@ a {
 .schedule-day {
   font-size: 1.75rem;
   line-height: 1.3;
-  font-weight: 800;
+  font-weight: 900;
   text-align: center;
-  color: #5aa1b8;
+  color: #5670c5;
   margin: 0.625rem 0; }
   @media screen and (min-width: 50rem) {
     .schedule-day {
-      font-size: 1.75rem; } }
+      font-size: 2.375rem; } }
 
 .schedule-time, .schedule-image {
   width: 100%;

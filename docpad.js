@@ -36,6 +36,7 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       "about",
+      "faq",
       //"speakers",
       //"presenter",
       //"schedule",
@@ -48,6 +49,7 @@ module.exports = {
     navigation: [
       "home",
       "about",
+      "faq",
       //"speakers",
       //"schedule",
       "location",
@@ -60,8 +62,9 @@ module.exports = {
     labels: {
       home: "Home",
       about: "About",
+      faq: "FAQ",
       //speakers: "Mentors",
-      //schedule: "Schedule",
+      schedule: "Schedule",
       location: "Venue",
       sponsors: "Sponsors",
       organizers: "Organizers",
@@ -164,34 +167,35 @@ module.exports = {
     schedule: [
       {
         date: "Sep 26",
-        time: "8:30",
+        time: "18:00",
         name: "Check-in",
         image: "images/schedule/check-in.svg"
       },
       {
-        time: "8:50",
+        time: "18:50",
         speaker: "Randal Maia",
         name: "Acelere, faça amigos e aprenda com seu guia de estilos",
         description: "Sabe aquele momento em que o designer entrega milhões de telas e você sente que não vai dar conta de todas as tarefas? Nesta talk, quero falar sobre como acelerar seu processo de desenvolvimento, fazer amigos dentro da sua equipe, compartilhar seu conhecimento e ter seu próprio guia de estilos."
       },
       {
-        time: "9:30",
+        time: "19:30",
         speaker: "Eduardo Gouvêa",
         name: "Festival da boa vizinhança: UX - Front end",
         description: "Hoje em dia, profissionais de UX são bastante requeridos nas empresas que focam em serviços e produtos digitais. E como fica a interação entre essa área de UX e os desenvolvedores no final do processo? Nesta talk, quero falar sobre a importância de planejar a Experiência do Usuário e como ela afeta e influencia o front-end e vice-versa."
       },
       {
-        time: "10:00",
+        time: "20:00",
         name: "Coffee",
         image: "images/schedule/coffee.svg"
       },
       {
-        time: "10:20",
+        time: "20:20",
         speaker: "Reinaldo Ferraz",
         name: "Acessibilidade na web modo Jedi Master",
         description: "Já conhece o básico de acessibilidade na Web? Então está na hora de partir do modo Padawan para Jedi Master entendendo o potencial do HTML5 para acessibilidade e como utilizar WAI-ARIA para manipular elementos e enriquecer sua aplicação Web."
       },
       {
+        date: "Sep 27",
         time: "11:10",
         speaker: "Cynthia Zanoni",
         name: "E que tal descobrir que você entende muito de SEO?",
@@ -215,6 +219,7 @@ module.exports = {
         description: "Em breve"
       },
       {
+        date: "Sep 28",
         time: "14:20",
         speaker: "Átila Fassina",
         name: "Responsive Web Workflow",
