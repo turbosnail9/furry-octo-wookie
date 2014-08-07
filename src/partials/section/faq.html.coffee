@@ -43,7 +43,7 @@ div class: 'wrapper', ->
   div class: 'about-text', itemprop: 'description', ->
     h3 ->
       span 'I don’t have a team or an idea!'
-    p -> 'No worries. Sign up on the <a href="http://wearhacks.sparkboard.com/">WearHacks SparkBoard</a>. You can join projects if you don\'t have an idea or create a project if you have an idea but no team. Either way, you\'re good to go!'
+    p -> 'Not a problem. Sign up on the <a href="http://wearhacks.sparkboard.com/">WearHacks SparkBoard</a>. You can join projects if you don\'t have an idea or create a project if you have an idea but no team. Either way, you\'re good to go!'
   div class: 'about-text', itemprop: 'description', ->
     h3 ->
       span 'How many people can be on my team?'
