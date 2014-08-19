@@ -1,6 +1,8 @@
+/* line 5, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
 .logo-link {
   font: 0/0 auto; }
 
+/* line 9, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
 .about-plus, .about-equal, .speaker-photo, .presenter-photo, .schedule-item-other .schedule-image, .schedule-item-speaker .schedule-image, .organizer-photo {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
   /* Firefox 10+, Firefox on Android */
@@ -16,12 +18,14 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+/* line 22, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
+/* line 32, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 audio, canvas, video {
   display: inline-block; }
 
@@ -29,6 +33,7 @@ audio, canvas, video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+/* line 41, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -37,6 +42,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
+/* line 52, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 [hidden], template {
   display: none; }
 
@@ -48,6 +54,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+/* line 66, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -59,6 +66,7 @@ html {
 /**
  * Remove default margin.
  */
+/* line 76, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 body {
   margin: 0; }
 
@@ -68,18 +76,21 @@ body {
 /**
  * Remove the gray background color from active links in IE 10.
  */
+/* line 88, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 a {
   background: transparent; }
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
+/* line 96, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 a:focus {
   outline: thin dotted; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
+/* line 105, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 a:active, a:hover {
   outline: 0; }
 
@@ -90,6 +101,7 @@ a:active, a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 118, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -97,24 +109,28 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
+/* line 127, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 136, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
+/* line 144, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 dfn {
   font-style: italic; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
+/* line 152, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -123,6 +139,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
+/* line 162, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 mark {
   background: yellow;
   color: black; }
@@ -130,6 +147,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
+/* line 174, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em; }
@@ -137,33 +155,39 @@ code, kbd, pre, samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
+/* line 183, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 pre {
   white-space: pre-wrap; }
 
 /**
  * Set consistent quote types.
  */
+/* line 191, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
+/* line 199, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
+/* line 208, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
+/* line 215, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 sup {
   top: -0.5em; }
 
+/* line 219, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 sub {
   bottom: -0.25em; }
 
@@ -173,12 +197,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
+/* line 231, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 img {
   border: 0; }
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
+/* line 239, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -188,6 +214,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
+/* line 251, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 figure {
   margin: 0; }
 
@@ -197,6 +224,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
+/* line 263, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
@@ -206,6 +234,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
+/* line 274, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 legend {
   border: 0;
   /* 1 */
@@ -217,6 +246,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 288, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 button, input, select, textarea {
   font-family: inherit;
   /* 1 */
@@ -229,6 +259,7 @@ button, input, select, textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+/* line 300, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 button, input {
   line-height: normal; }
 
@@ -238,6 +269,7 @@ button, input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
+/* line 312, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 button, select {
   text-transform: none; }
 
@@ -248,6 +280,7 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+/* line 327, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -257,6 +290,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
+/* line 337, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 button[disabled], html input[disabled] {
   cursor: default; }
 
@@ -264,6 +298,7 @@ button[disabled], html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
+/* line 347, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
@@ -275,6 +310,7 @@ input[type="checkbox"], input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
+/* line 358, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -287,12 +323,14 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
+/* line 371, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
+/* line 380, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -301,6 +339,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
+/* line 390, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 textarea {
   overflow: auto;
   /* 1 */
@@ -313,15 +352,18 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
+/* line 403, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/normalize */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 2, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/layout */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 8, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/layout */
 body {
   font-family: 'Raleway', sans-serif;
   color: #333333; }
@@ -329,12 +371,15 @@ body {
     body {
       font-size: 1.125rem; } }
 
+/* line 16, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/layout */
 a {
   color: #5aa1b8;
   text-decoration: none; }
+  /* line 19, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/layout */
   a:hover {
     text-decoration: underline; }
 
+/* line 24, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/core/layout */
 .wrapper {
   max-width: 990px;
   padding: 0 10px;
@@ -343,6 +388,7 @@ a {
     .wrapper {
       padding: 0 25px; } }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/nav */
 .nav {
   background: white;
   z-index: 2;
@@ -356,28 +402,34 @@ a {
       position: fixed;
       left: 0; } }
 
+/* line 13, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/nav */
 .nav-items {
   list-style: none;
   text-align: center;
   margin: 0;
   padding: 0; }
 
+/* line 19, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/nav */
 .nav-item {
   display: inline-block;
   margin: 0 1rem; }
 
+/* line 23, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/nav */
 .nav-link {
   display: inline-block;
   font: 600 0.9375rem/3.4375rem 'Raleway', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   color: #6c6c6c; }
+  /* line 29, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/nav */
   .nav-link.active {
     box-shadow: inset 0 8px 0 #f13c47; }
+  /* line 32, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/nav */
   .nav-link .nav-social {
     display: inline-block;
     margin: 0; }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/header */
 .header {
   padding: 0.9375rem 0;
   background: url(../images/header3.jpg) center center no-repeat;
@@ -387,11 +439,13 @@ a {
     .header {
       padding-top: 4.375rem; } }
 
+/* line 10, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/header */
 .logo {
   width: 40rem;
   max-width: 80%;
   margin: 1.25rem auto; }
 
+/* line 15, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/header */
 .logo-link {
   display: block;
   padding-bottom: 53.125%;
@@ -401,6 +455,7 @@ a {
     .logo-link {
       margin: 3.75rem auto; } }
 
+/* line 25, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/header */
 .event-head {
   margin: 0;
   color: #5aa1b8;
@@ -410,6 +465,7 @@ a {
       font-size: 2.125rem;
       font-weight: 200; } }
 
+/* line 34, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/header */
 .event-slogan {
   position: absolute;
   left: -9999rem; }
@@ -425,6 +481,7 @@ a {
     .event-slogan {
       font-size: 3.75rem; } }
 
+/* line 48, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/header */
 .call-action-link {
   display: inline-block;
   font: 800 1.125rem/2.3 'Raleway', sans-serif;
@@ -437,24 +494,29 @@ a {
   background-size: 200px 200px;
   transition: box-shadow 0.1s ease-out;
   margin: 1.25rem 0; }
+  /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .call-action-link:after {
     margin-left: 0.875rem;
     padding: 0 0.875rem; }
+  /* line 59, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .call-action-link:after {
     border-left: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: -1px 0 0 rgba(255, 255, 255, 0.1);
     display: inline-block;
     content: '>';
     font-weight: 200; }
+  /* line 67, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .call-action-link:hover {
     box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.2);
     text-decoration: none; }
+  /* line 71, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .call-action-link:active {
     box-shadow: inset 0 0.1em 0.2em rgba(0, 0, 0, 0.5); }
   @media screen and (min-width: 37.5rem) {
     .call-action-link {
       font-size: 1.4375rem;
       padding-left: 1.25rem; }
+      /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .call-action-link:after {
         margin-left: 1.25rem;
         padding: 0 1.25rem; } }
@@ -464,12 +526,14 @@ a {
       font-size: 2.0625rem;
       margin-bottom: 3.75rem; } }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/sections */
 .section {
   padding: 1.875rem 0; }
   @media screen and (min-width: 37.5rem) {
     .section {
       padding: 4.375rem 0 3.125rem; } }
 
+/* line 8, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/sections */
 .section-title {
   font-size: 1.75rem;
   color: #5aa1b8;
@@ -478,9 +542,11 @@ a {
   margin-top: 0;
   padding-bottom: 0.625rem;
   position: relative; }
+  /* line 15, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/sections */
   .section-title span {
     font-weight: 100;
     color: #333333; }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .section-title:after {
     content: '';
     position: absolute;
@@ -488,6 +554,7 @@ a {
     left: 10%;
     right: 10%;
     height: 10px; }
+  /* line 48, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .section-title:after {
     bottom: -10px;
     background: -webkit-radial-gradient(center top, ellipse farthest-side, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
@@ -496,8 +563,10 @@ a {
     .section-title {
       font-size: 2.75rem;
       letter-spacing: -0.1875rem; }
+      /* line 24, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/sections */
       .section-title span {
         display: block; }
+      /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
       .section-title:after {
         content: '';
         position: absolute;
@@ -505,24 +574,29 @@ a {
         left: 30%;
         right: 30%;
         height: 10px; }
+      /* line 48, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
       .section-title:after {
         bottom: -10px;
         background: -webkit-radial-gradient(center top, ellipse farthest-side, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
         background: radial-gradient(farthest-side at center top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); } }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
 .section-collaborate {
   background: url("../images/texture-blue.jpg") center center;
   background-size: 200px 200px; }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
   .section-collaborate p {
     text-align: center; }
   @media screen and (min-width: 37.5rem) {
     .section-collaborate {
       padding: 3.125rem 0; } }
 
+/* line 11, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
 .collaborate-item {
   color: white;
   text-align: center;
   position: relative; }
+  /* line 15, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
   .collaborate-item:first-child {
     margin-bottom: 1.875rem; }
   @media screen and (min-width: 37.5rem) {
@@ -530,15 +604,20 @@ a {
       display: inline-block;
       vertical-align: top;
       width: 50%; }
+      /* line 19, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .collaborate-item:nth-child(n) {
         clear: none; }
+      /* line 21, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .collaborate-item:nth-child(2n+1) {
         clear: left; }
+      /* line 20, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
       .collaborate-item:first-child {
         margin-bottom: 0;
         padding-right: 5%; }
+      /* line 24, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
       .collaborate-item:last-child {
         padding-left: 5%; }
+        /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
         .collaborate-item:last-child:before {
           content: '';
           position: absolute;
@@ -546,6 +625,7 @@ a {
           top: 5%;
           bottom: 5%;
           width: 10px; }
+        /* line 23, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
         .collaborate-item:last-child:before {
           left: 0;
           background: -webkit-radial-gradient(left center, ellipse farthest-side, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
@@ -553,10 +633,13 @@ a {
   @media screen and (min-width: 50rem) {
     .collaborate-item {
       padding: 0 5%; }
+      /* line 31, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
       .collaborate-item:first-child {
         padding-right: 10%; }
+      /* line 34, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
       .collaborate-item:last-child {
         padding-left: 10%; }
+        /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
         .collaborate-item:last-child:before {
           content: '';
           position: absolute;
@@ -564,16 +647,19 @@ a {
           top: 5%;
           bottom: 5%;
           width: 10px; }
+        /* line 23, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
         .collaborate-item:last-child:before {
           left: 0;
           background: -webkit-radial-gradient(left center, ellipse farthest-side, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
           background: radial-gradient(farthest-side at left center, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); } }
 
+/* line 40, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
 .collaborate-title {
   margin: 0 auto;
   text-align: center;
   font-size: 1.75rem;
   text-transform: uppercase; }
+  /* line 45, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
   .collaborate-title span {
     font-weight: 100;
     display: block; }
@@ -585,6 +671,7 @@ a {
     .collaborate-title {
       font-size: 2.75rem; } }
 
+/* line 57, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
 .collaborate-link {
   display: inline-block;
   font: 800 1.125rem/2.3 'Raleway', sans-serif;
@@ -599,47 +686,58 @@ a {
   margin: 0 auto;
   text-align: center;
   margin-top: 0.25rem; }
+  /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .collaborate-link:after {
     margin-left: 0.875rem;
     padding: 0 0.875rem; }
+  /* line 59, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .collaborate-link:after {
     border-left: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: -1px 0 0 rgba(255, 255, 255, 0.1);
     display: inline-block;
     content: '>';
     font-weight: 200; }
+  /* line 67, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .collaborate-link:hover {
     box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.2);
     text-decoration: none; }
+  /* line 71, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .collaborate-link:active {
     box-shadow: inset 0 0.1em 0.2em rgba(0, 0, 0, 0.5); }
   @media screen and (min-width: 37.5rem) {
     .collaborate-link {
       font-size: 1.4375rem;
       padding-left: 1.25rem; }
+      /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .collaborate-link:after {
         margin-left: 1.25rem;
         padding: 0 1.25rem; } }
   @media screen and (min-width: 37.5rem) {
     .collaborate-link {
       margin-top: 0.875rem; } }
+  /* line 65, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_collaborate */
   .collaborate-link .collaborate-share {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%; }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_about */
 .about-text {
   margin: 0 auto; }
   @media screen and (min-width: 37.5rem) {
     .about-text {
       width: 70%; } }
 
+/* line 7, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_about */
 .about-photo {
   width: 100%;
   border-radius: 40%;
   display: block;
   margin: 0 auto; }
 
+/* line 13, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_about */
 .about-plus {
   width: 10%;
   height: 10%;
@@ -648,6 +746,7 @@ a {
   margin-right: 3%;
   display: inline-block; }
 
+/* line 22, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_about */
 .about-equal {
   width: 8%;
   height: 8%;
@@ -656,38 +755,46 @@ a {
   margin-right: 3%;
   display: inline-block; }
 
+/* line 31, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_about */
 .cycle-slideshow {
   width: 20%;
   height: 100%;
   vertical-align: 0;
   display: inline-block; }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .section-speakers {
   background: url("../images/texture-dark-blue.jpg") center center;
   background-size: 200px 200px; }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
   .section-speakers .section-title {
     margin-bottom: 0; }
+    /* line 55, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
     .section-speakers .section-title:after {
       display: none; }
     @media screen and (min-width: 37.5rem) {
       .section-speakers .section-title {
         font-size: 3.4375rem; } }
 
+/* line 12, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .speakers-list {
   list-style: none;
   padding: 0;
   margin: 0; }
 
+/* line 17, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .speaker-item {
   margin-top: -2.5rem;
   padding-top: 6.25rem; }
 
+/* line 21, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .speaker-photo {
   width: 25.53191%;
   margin-right: 6.38298%;
   display: inline-block;
   border-radius: 50%; }
 
+/* line 28, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .speaker-info {
   width: 68.08511%;
   padding-left: 2.12766%;
@@ -695,6 +802,7 @@ a {
   vertical-align: top;
   color: white; }
 
+/* line 35, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .speaker-name {
   font-size: 1.375rem;
   margin: 0;
@@ -702,6 +810,7 @@ a {
   @media screen and (min-width: 37.5rem) {
     .speaker-name {
       font-size: 1.875rem; }
+      /* line 41, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
       .speaker-name:before {
         top: 16%;
         bottom: 16%;
@@ -710,12 +819,15 @@ a {
         border-left: 8px solid #f13c47;
         content: ''; } }
 
+/* line 51, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .speaker-bio {
   margin: 1.25rem 0 0; }
 
+/* line 54, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_speakers */
 .speaker-comment {
   position: relative;
   padding-left: 20px; }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .speaker-comment:before {
     content: '';
     position: absolute;
@@ -723,15 +835,18 @@ a {
     top: 0%;
     bottom: 0%;
     width: 10px; }
+  /* line 23, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .speaker-comment:before {
     left: 0;
     background: -webkit-radial-gradient(left center, ellipse farthest-side, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
     background: radial-gradient(farthest-side at left center, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_presenter */
 .section-presenter {
   background: url("../images/texture-blue.jpg") center center;
   background-size: 200px 200px;
   color: white; }
+  /* line 4, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_presenter */
   .section-presenter .section-title {
     margin-bottom: 2.5rem;
     color: white;
@@ -740,12 +855,14 @@ a {
       .section-presenter .section-title {
         font-size: 1.875rem;
         letter-spacing: -0.0625rem; } }
+  /* line 13, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_presenter */
   .section-presenter a {
     color: #346878; }
   @media screen and (min-width: 37.5rem) {
     .section-presenter {
       padding: 3.125rem 0; } }
 
+/* line 21, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_presenter */
 .presenter-profile {
   text-align: center; }
   @media screen and (min-width: 37.5rem) {
@@ -754,6 +871,7 @@ a {
       margin: 0 3.19149%;
       display: inline-block; } }
 
+/* line 29, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_presenter */
 .presenter-photo {
   width: 20%;
   border-radius: 50%;
@@ -763,6 +881,7 @@ a {
     .presenter-photo {
       width: 50%; } }
 
+/* line 39, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_presenter */
 .presenter-name {
   margin-top: 0.625rem;
   font-weight: 800; }
@@ -773,10 +892,13 @@ a {
     display: inline-block;
     vertical-align: top; } }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .section-schedule {
   padding-bottom: 0; }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
   .section-schedule .section-title {
     padding-bottom: 1.875rem; }
+    /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
     .section-schedule .section-title:after {
       content: '';
       position: absolute;
@@ -784,19 +906,23 @@ a {
       left: 0%;
       right: 0%;
       height: 10px; }
+    /* line 48, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
     .section-schedule .section-title:after {
       bottom: -10px;
       background: -webkit-radial-gradient(center top, ellipse farthest-side, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
       background: radial-gradient(farthest-side at center top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); }
 
+/* line 8, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule {
   list-style: none;
   padding: 0; }
 
+/* line 12, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-item {
   position: relative;
   padding: 5rem 0 1.875rem 0;
   margin: -5rem 0 1.875rem 0; }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .schedule-item:after {
     content: '';
     position: absolute;
@@ -804,22 +930,27 @@ a {
     left: 0%;
     right: 0%;
     height: 10px; }
+  /* line 48, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .schedule-item:after {
     bottom: -10px;
     background: -webkit-radial-gradient(center top, ellipse farthest-side, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
     background: radial-gradient(farthest-side at center top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); }
 
+/* line 18, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-intro, .schedule-slot {
   display: inline-block;
   vertical-align: top; }
 
+/* line 22, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-intro {
   width: 23.40426%; }
 
+/* line 25, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-slot {
   width: 76.59574%;
   padding: 0.3125rem 0 0.3125rem 2.12766%; }
 
+/* line 30, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-intro-board {
   color: white;
   border-radius: 6px 6px 50% 50%/6px 6px 40% 40%; }
@@ -827,6 +958,7 @@ a {
     .schedule-intro-board {
       border-radius: 6px 25% 25% 6px/6px 50% 50% 6px; } }
 
+/* line 37, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-day {
   font-size: 1.75rem;
   line-height: 1.3;
@@ -838,6 +970,7 @@ a {
     .schedule-day {
       font-size: 2.375rem; } }
 
+/* line 48, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-time, .schedule-image {
   width: 100%;
   display: block; }
@@ -847,6 +980,7 @@ a {
       display: inline-block;
       vertical-align: middle; } }
 
+/* line 57, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-time {
   font-size: 1.25rem;
   line-height: 1.5;
@@ -856,9 +990,11 @@ a {
     .schedule-time {
       font-size: 1.875rem; } }
 
+/* line 66, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-image {
   border-radius: 50%; }
 
+/* line 69, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-activity {
   font-size: 1.25rem;
   line-height: 1.1;
@@ -868,6 +1004,7 @@ a {
     .schedule-activity {
       font-size: 1.75rem; } }
 
+/* line 78, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-description-button {
   display: inline-block;
   font: 800 1.125rem/2.3 'Raleway', sans-serif;
@@ -883,27 +1020,33 @@ a {
   z-index: 1;
   font-size: 0.75rem;
   padding-left: 0.5rem; }
+  /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .schedule-description-button:after {
     margin-left: 0.875rem;
     padding: 0 0.875rem; }
+  /* line 59, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .schedule-description-button:after {
     border-left: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: -1px 0 0 rgba(255, 255, 255, 0.1);
     display: inline-block;
     content: '↓';
     font-weight: 200; }
+  /* line 67, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .schedule-description-button:hover {
     box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.2);
     text-decoration: none; }
+  /* line 71, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .schedule-description-button:active {
     box-shadow: inset 0 0.1em 0.2em rgba(0, 0, 0, 0.5); }
   @media screen and (min-width: 37.5rem) {
     .schedule-description-button {
       font-size: 1.4375rem;
       padding-left: 1.25rem; }
+      /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .schedule-description-button:after {
         margin-left: 1.25rem;
         padding: 0 1.25rem; } }
+  /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .schedule-description-button:after {
     margin-left: 0.5rem;
     padding: 0 0.5rem; }
@@ -911,10 +1054,12 @@ a {
     .schedule-description-button {
       font-size: 0.875rem;
       padding-left: 0.625rem; }
+      /* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .schedule-description-button:after {
         margin-left: 0.625rem;
         padding: 0 0.625rem; } }
 
+/* line 89, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-description {
   max-height: 0;
   overflow: hidden;
@@ -923,38 +1068,49 @@ a {
     .schedule-description {
       margin-left: 25.53191%; } }
 
+/* line 98, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-item:target .schedule-intro, .schedule-item:target .schedule-slot {
   margin-bottom: 0.625rem; }
+/* line 80, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
 .schedule-item:target .schedule-description-button:after {
   content: '↑'; }
+/* line 104, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-item:target .schedule-description {
   transition: all 1s linear;
   max-height: 60em; }
 
+/* line 111, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-item-other .schedule-intro, .schedule-item-other .schedule-slot {
   vertical-align: middle; }
+/* line 114, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-item-other .schedule-intro-board {
   background: url("../images/texture-grey.jpg") center center;
   background-size: 200px 200px; }
+/* line 117, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-item-other .schedule-image {
   background: #333333; }
 
+/* line 123, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_schedule */
 .schedule-item-speaker .schedule-intro-board {
   background: url("../images/texture-blue.jpg") center center;
   background-size: 200px 200px; }
 
+/* line 55, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
 .section-location .section-title:after {
   display: none; }
 
+/* line 5, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_location */
 .address {
   color: #5aa1b8;
   margin-top: -1em;
   text-align: center; }
 
+/* line 11, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_location */
 .address-map {
   padding-bottom: 60%;
   margin-top: 1.25rem;
   position: relative; }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .address-map:before {
     content: '';
     position: absolute;
@@ -962,10 +1118,12 @@ a {
     left: 0%;
     right: 0%;
     height: 10px; }
+  /* line 40, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .address-map:before {
     top: 0;
     background: -webkit-radial-gradient(center top, ellipse farthest-side, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
     background: radial-gradient(farthest-side at center top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)); }
+  /* line 3, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .address-map:after {
     content: '';
     position: absolute;
@@ -973,6 +1131,7 @@ a {
     left: 0%;
     right: 0%;
     height: 10px; }
+  /* line 31, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers_lines */
   .address-map:after {
     bottom: 0;
     background: -webkit-radial-gradient(center bottom, ellipse farthest-side, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
@@ -983,9 +1142,11 @@ a {
       margin-top: 2.5rem;
       height: 29.375rem; } }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_organizers */
 .section-organizers {
   padding-top: 0.625rem; }
 
+/* line 5, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_organizers */
 .organizers-list {
   list-style: none;
   margin: 0 auto;
@@ -1000,6 +1161,7 @@ a {
     .organizers-list {
       margin-top: 2.5rem; } }
 
+/* line 19, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_organizers */
 .organizer-item {
   display: inline-block;
   vertical-align: top;
@@ -1007,8 +1169,10 @@ a {
   padding: 0 0.625rem;
   margin-top: 1.25rem;
   text-align: center; }
+  /* line 19, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .organizer-item:nth-child(n) {
     clear: none; }
+  /* line 21, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
   .organizer-item:nth-child(2n+1) {
     clear: left; }
   @media screen and (min-width: 37.5rem) {
@@ -1016,52 +1180,62 @@ a {
       display: inline-block;
       vertical-align: top;
       width: 25%; }
+      /* line 19, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .organizer-item:nth-child(n) {
         clear: none; }
+      /* line 21, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/helpers */
       .organizer-item:nth-child(4n+1) {
         clear: left; } }
 
+/* line 28, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_organizers */
 .organizer-photo {
   width: 50%;
   border-radius: 50%;
   display: block;
   margin: 0 auto; }
 
+/* line 35, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_organizers */
 .organizer-name {
   margin-top: 0.625rem;
   font-weight: 800; }
 
 
+/* line 5, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .sponsors-list, .partners-list {
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0; }
 
+/* line 11, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .sponsors-list {
   margin-bottom: 1.875rem; }
   @media screen and (min-width: 37.5rem) {
     .sponsors-list {
       margin-bottom: 3.125rem; } }
 
+/* line 17, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .sponsor-item, .partner-item-r2d2, .partner-item-t1000, .partner-item-optimus {
   width: 20%;
   margin: 0 0.5% 2% 0.5%;
   min-width: 9.375rem;
   display: inline-block; }
 
+/* line 24, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .partner-item-walle {
   width: 20%;
   margin: 0 0.5% 2% 0.5%;
   min-width: 9.375rem;
   display: inline-block; }
 
+/* line 30, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .partner-item-singularity {
   width: 20%;
   margin: 0 0.5% 2% 0.5%;
   min-width: 9.375rem;
   display: inline-block; }
 
+/* line 37, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .partner-item-walle {
   width: 20%;
   min-width: 6.25rem;
@@ -1069,36 +1243,44 @@ a {
   margin-right: auto;
   display: block; }
 
+/* line 44, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .partner-item-r2d2 {
   width: 25%;
   min-width: 6.25rem;
   display: inline-block; }
 
+/* line 49, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .partner-item-t1000 {
   width: 30%;
   min-width: 6.25rem; }
 
+/* line 53, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .partner-item-optimus {
   width: 35%;
   min-width: 6.25rem; }
 
+/* line 57, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .partner-item-singularity {
   width: 50%;
   min-width: 6.25rem; }
 
+/* line 61, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/section_sponsors */
 .sponsor-logo, .partner-logo {
   display: block;
   width: 100%; }
 
+/* line 1, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/footer */
 .footer {
   font-size: 0.875rem; }
 
+/* line 5, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/footer */
 .credits {
   display: inline-block;
   max-width: 80%;
   margin-top: 1.25rem;
   padding-bottom: 1.25rem;
   border-bottom: #f13c47 solid 0.625rem; }
+  /* line 11, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/footer */
   .credits a {
     color: #f13c47; }
   @media screen and (min-width: 37.5rem) {
@@ -1106,9 +1288,11 @@ a {
       margin-top: 2.5rem;
       padding-bottom: 2.5rem; } }
 
+/* line 19, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/footer */
 .image-credits {
   display: block;
   max-width: 80%;
   margin-top: 1.25rem; }
+  /* line 23, /home/turbosnail9/Documents/furry-octo-wookie/src/documents/styles/partials/footer */
   .image-credits a {
     color: #f13c47; }
