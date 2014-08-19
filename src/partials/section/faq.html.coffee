@@ -5,7 +5,7 @@ div class: 'wrapper', ->
   div class: 'about-text', itemprop: 'description', ->
     h3 ->
       span 'What is WearHacks?'
-    p -> 'WearHacks is an international, student run, collegiate hackathon held in Montreal. A hackathon is an event where teams build cool stuff together for 36 hours- sleep is optional, making awesome things is not. WearHacks is focused on wearable and connected technologies.' 
+    p -> 'WearHacks is an international, student run hackathon held in Montreal. A hackathon is an event where teams build cool stuff together for 36 hours- sleep is optional, making awesome things is not. WearHacks is focused on wearable and connected technologies.' 
   #div class: 'about-text', itemprop: 'description', ->
   # h3 ->
   #    span 'Wearable Tech? Connected Devices? What are they?'
@@ -86,6 +86,7 @@ div class: 'wrapper', ->
     p -> a href: 'https://www.thalmic.com/en/myo/', ->'Thalmic Myo' 
     p -> a href: 'https://www.mbientlab.com/', ->'MetaWear'
     p -> a href: 'http://estimote.com/', ->'Estimote'
+    p -> a href: 'http://hellonod.com/', ->'Nod Ring'
   div class: 'about-text', itemprop: 'description', ->
     h3 ->
       span 'I have a question that is not listed here. Who should I ask?'

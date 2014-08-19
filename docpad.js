@@ -259,11 +259,11 @@ module.exports = {
     
     
     sponsorssingularity: [
-      // {
-      //   name: "La Commune",
-      //   logo: "images/sponsors/LaCommunelogo2.png",
-      //   url: "http://www.lacommune.ca/index.php/en/"
-      // }
+       {
+         name: "Hacking Health",
+         logo: "images/sponsors/HH-Logo-vertcial-B-Red.png",
+         url: "http://www.hackinghealth.ca/"
+       }
     ],
     sponsorsoptimus: [
       
@@ -281,60 +281,50 @@ module.exports = {
       },
       
       {
-		name: "Estimote",
-		logo: "images/sponsors/estimote-logo.png",
-		url: "http://estimote.com/"
-	  },
+		    name: "Estimote",
+		    logo: "images/sponsors/estimote-logo.png",
+		    url: "http://estimote.com/"
+	    }
+    ],
+    sponsorsr2d2: [
+      //{
+      //  name: "FreshMint",
+      //   logo: "images/sponsors/freshmint.jpg",
+      //   url: "http://www.freshmint.com/"
+      //},
+      {
+        name: "Google",
+         logo: "images/sponsors/google.png",
+         url: "https://www.google.ca/intl/en/about/"
+      },
+      {
+        name: "Nod",
+         logo: "images/sponsors/NodLogo1.png",
+         url: "https://www.hellonod.com/"
+      }  
+    ],
+
+ 	  sponsorswalle: [
       {
         name: "Mbient Lab",
         logo: "images/sponsors/mbient-logo.png",
         url: "https://www.mbientlab.com/"
+      },
+      {
+        name: "Real Ventures",
+        logo: "images/sponsors/Real_Ventures_logo.png",
+        url: "http://realventures.com/en/"
       }
     ],
-    sponsorsr2d2: [
-    //  {
-    //    name: "La Commune",
-      //   logo: "images/sponsors/LaCommunelogo2.png",
-      //   url: "http://www.lacommune.ca/index.php/en/"
-      // }
-    ],
 
- 	sponsorswalle: [
-     // {
-     //   name: "La Commune",
-     //   logo: "images/sponsors/LaCommunelogo2.png",
-     //   url: "http://www.lacommune.ca/index.php/en/"
-     // }
-    ],
-
-    // List of Partners
-    //partners: [
-      // {
-      //   name: "MBient Lab",
-      //   logo: "images/sponsors/abradi.svg",
-      //   url: "https://www.mbientlab.com/"
-      // },
-      // {
-      //   name: "Adafruit",
-      //   logo: "images/sponsors/codeminer.svg",
-      //   url: "https://www.adafruit.com/"
-      // },
-      // {
-      //   name: "Kiwi",
-      //   logo: "images/sponsors/brazil-js.svg",
-      //   url: "http://http://www.kiwimotion.io/"
-      // },
-      // {
-      //   name: "Neptune Pine",
-      //   logo: "images/sponsors/novatec.svg",
-      //   url: "http://novatec.com.br"
-      // },
-      // {
-      //   name: "Fitbit",
-      //   logo: "images/sponsors/target-trust.svg",
-      //   url: "http://www.fitbit.com/"
-      // }
-    //],
+    //List of Partners
+    // partners: [
+    //   {
+    //     name: "Hacking Health",
+    //     logo: "images/sponsors/abradi.svg",
+    //     url: "https://www.mbientlab.com/"
+    //   }
+    // ],
 
     nameId: function (name) {
       return name.toLowerCase().replace(/\s+/g, '-').replace(/[.!:?;,]/g, '');

@@ -1037,30 +1037,46 @@ a {
     .sponsors-list {
       margin-bottom: 3.125rem; } }
 
-.sponsor-item, .partner-item-walle, .partner-item-r2d2, .partner-item-t1000, .partner-item-optimus, .partner-item-singularity {
+.sponsor-item, .partner-item-r2d2, .partner-item-t1000, .partner-item-optimus {
   width: 20%;
   margin: 0 0.5% 2% 0.5%;
   min-width: 9.375rem;
   display: inline-block; }
 
 .partner-item-walle {
-  width: 10%;
-  min-width: 6.25rem; }
+  width: 20%;
+  margin: 0 0.5% 2% 0.5%;
+  min-width: 9.375rem;
+  display: inline-block; }
+
+.partner-item-singularity {
+  width: 20%;
+  margin: 0 0.5% 2% 0.5%;
+  min-width: 9.375rem;
+  display: inline-block; }
+
+.partner-item-walle {
+  width: 20%;
+  min-width: 6.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 .partner-item-r2d2 {
-  width: 15%;
-  min-width: 6.25rem; }
+  width: 25%;
+  min-width: 6.25rem;
+  display: inline-block; }
 
 .partner-item-t1000 {
-  width: 20%;
+  width: 30%;
   min-width: 6.25rem; }
 
 .partner-item-optimus {
-  width: 25%;
+  width: 35%;
   min-width: 6.25rem; }
 
 .partner-item-singularity {
-  width: 40%;
+  width: 50%;
   min-width: 6.25rem; }
 
 .sponsor-logo, .partner-logo {
