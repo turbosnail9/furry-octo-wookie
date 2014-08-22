@@ -691,7 +691,7 @@ a {
   border-radius: 50%; }
 
 .speaker-info {
-  width: 68.08511%;
+  width: 63.82979%;
   padding-left: 2.12766%;
   display: inline-block;
   vertical-align: top;
@@ -1089,7 +1089,7 @@ a {
   min-width: 6.25rem; }
 
 .sponsor-logo, .partner-logo {
-  display: block;
+  display: inline-block;
   width: 100%; }
 
 .footer {

@@ -37,7 +37,7 @@ module.exports = {
     sections: [
       "about",
       "faq",
-      //"speakers",
+      "speakers",
       //"presenter",
       //"schedule",
       "location",
@@ -50,7 +50,7 @@ module.exports = {
       "home",
       "about",
       "faq",
-      //"speakers",
+      "speakers",
       //"schedule",
       "location",
       "sponsors",
@@ -63,7 +63,7 @@ module.exports = {
       home: "Home",
       about: "About",
       faq: "FAQ",
-      //speakers: "Mentors",
+      speakers: "Mentors",
       schedule: "Schedule",
       location: "Venue",
       sponsors: "Sponsors",
@@ -74,93 +74,32 @@ module.exports = {
     // List of speakers
     speakers: [
       {
-        name: "Reinaldo Ferraz",
-        image: "images/speakers/reinaldo-ferraz.jpg",
-        bio: "Especialista em desenvolvimento web do W3C Brasil. Formado em desenho e computação gráfica e pós graduado em design de hipermídia pela Universidade Anhembi Morumbi em São Paulo. Trabalha há mais de 12 anos com desenvolvimento web. Coordenador do Prêmio Nacional de Acessibilidade na Web e do Grupo de Trabalho em Acessibilidade na Web e representante do W3C Brasil em plenárias técnicas do W3C.",
-        comment: "E que tal trazer um dos mestres da W3C para falar sobre acessibilidade? Reinaldo promete mostrar como quebrar as barreiras do inacessível das aplicações web.",
-        company: "W3C Brasil",
-        twitter: "reinaldoferraz",
-        github: "reinaldoferraz"
-      },
-      {
-        name: "Franz Figueroa",
-        image: "images/speakers/franz-figueroa.jpg",
-        bio: "Possui graduação em Análise de Sistemas pela UNISINOS (1991) e mestrado em Ciências da Computação pela UFRGS (1995). Atualmente é professor / coordenador do curso superior de tecnologia em Produção Multimídia - Faculdade Senac Porto Alegre. Tem experiência na área de Ciência da Computação, com ênfase em Computação Gráfica e Usabilidade, atuando principalmente nos seguintes temas: Computação 2D e 3D, User Experience e Games.",
+        name: "Alexander Lynn",
+        image: "images/speakers/alexlynn.jpg",
+        bio: "Alex plays a key role in building out the <a href=\"http://realventures.com/en/\">Real Ventures</a> brand, all while acting as a resource to portfolio companies and thinking about where <a href=\"http://founderfuel.com/en/\">FounderFuel</a> is heading next. Before this, he helped world-class brands innovate at Sid Lee and founded TEDxMontreal. In his spare time he drinks tea, reads books, designs things and travels",
         comment: "",
-        company: "Faculdade Senac",
-        twitter: "franzfigueroa",
+        company: "Real Ventures",
+        twitter: "AlexandreLynn",
         github: ""
       },
       {
-        name: "Jaydson Gomes",
-        gravatar: "572696200604e59baa59ee90d61f7d02",
-        bio: "Mais de 8 anos de experiência em desenvolvimento Web, apaixonado por JavaScript, curador da BrazilJS Conf e um dos criadores e líderes da BrazilJS Foundation. Trabalha atualmente no Terra criando ferramentas e APIs JavaScript e pesquisando novas tecnologias, como HTML5 e todo o seu guarda-chuva, Node.JS e, é claro, JavaScript",
-        comment: "Apoiado na evolução do desenvolvimento front-end e como um verdadeiro <a href=\"http://jaydson.org/cultura-maldita-no-desenvolvimento-de-software/\" target=\"_blank\">exterminador <del>do futuro</del> da cultura maldita</a>, Jaydson vai falar sobre a revolução a qual liderou em nome de produtos mais robustos, escaláveis e de qualidade.",
-        company: "Terra",
-        twitter: "jaydson",
-        github: "jaydson"
-      },
-      {
-        name: "Vitor Carlos",
-        gravatar: "8831190d849c1748dbb2bcdffbf71bc9",
-        bio: "Um gamer da geração atari, *.dev, apaixonado por café e UX. Estuda Jogos Digitais na PUCRS e trabalha como Front-End na Joy Interactive.",
-        comment: "<a href=\"https://github.com/v42/HTML-Game-Engine\" target=\"_blank\">Confere só a engine que ele fez.</a> Claro, Vitor vai falar sobre games. Com certeza uma das coisas que mais entende e dedica por diversão e estudo grande parte do seu tempo. ",
-        company: "Joy",
-        twitter: "Vitor42",
-        github: "v42"
-      },
-      {
-        name: "Glauber Ramos",
-        gravatar: "5716ab9479c715eecc6a9a7f2139da75",
-        bio: "Trabalha como UX designer e front-end developer na Thoughtworks Brasil em Porto Alegre. Gosta de trabalhar em ambientes ágeis onde possa colaborar com outros e construir a melhor experiência com foco no usuário. Acredita na web como um ambiente de inovação onde é possível aprender, compartilhar seu trabalho, inspirar e ser inspirado por outras pessoas.",
-        comment: "Sabemos, não podia faltar uma palestra sobre folhas de estilo. Mas muito além do bê-a-ba, Glauber vai falar de pré-processadores e técnicas de organização de CSS.",
-        company: "Thoughtworks",
-        twitter: "glauberamos",
-        github: "glauberramos"
-      },
-      {
-        name: "Átila Fassina",
-        gravatar: "7469dd76fa3e9ae524119b194c466e96",
-        bio: "Front-end Dev que acredita no Design Responsivo como primeiro passo para uma boa UX, flanelinha de Designer e zagueiro-SEO nas horas vagas.",
-        comment: "Um desenvolvedor dedicado e sempre presente em todos os eventos com as melhores perguntas. Chegou a vez do Átila dar uma aula sobre RWD.",
-        company: "Lenova Internet",
-        twitter: "atilafassina",
-        github: "atilafassina"
-      },
-      {
-        name: "Randal Maia",
-        gravatar: "02bb6d790ea355609c1eaed994465054",
-        bio: "Já foi sobrinho, menino do HTML e atualmente, Front-end Engineer no ContaAzul, startup B2B brasileira. Focado em resultados, acredita na influência de um bom front-end na experiência do usuário e nas métricas de um software. Também entusiasta web, empreendedor e graduando em Análise de Sistemas pela UDESC.",
-        comment: "Viu no crescimento da equipe em que trabalha o desafio de acelerar o desenvolvimento e manter a qualidade do produto. Randal nos apresentará o processo de criação de um Guia de Estilos, solução para seus problemas.",
-        company: "ContaAzul",
-        twitter: "randalmaia",
-        github: "randalmaia"
-      },
-      {
-        name: "Eduardo Gouvêa",
-        image: "images/speakers/eduardo-gouvea.jpg",
-        bio: "Formado em Design Gráfico, ex front-end, ex analista de produtos, atual UX/UI Designer e ilustrador nas horas extras. Busca a melhor maneira de envolver usuários em seus projetos sempre de forma amigável com os desenvolvedores.",
-        comment: "Nada como o Eduardo, que já atuou em diversas áreas, para falar do planejamento da experiência do usuário e a interação entre diferentes profissionais rumo a produtos de internet de sucesso.",
-        company: "Brivia"
-      },
-      {
-        name: "Bruno Azevedo",
-        image: "images/speakers/bruno-azevedo.jpg",
-        bio: "Desenvolvedor web especializado em Front-End. Com mais de 7 anos de experiência, trabalhou em alguns dos maiores players do Brasil, como o Grupo RBS e o Terra Networks. Atualmente e co-fundador && Front-End developer na marimbondo, um estúdio que tem como objetivo fazer da web um lugar mais bonito.",
-        comment: "E que tal melhorar o seu workflow de trabalho utilizando Grunt? Bruno vai mostrar como economizar seu tempo e agilizar seu dia-a-dia automatizando tarefas com Node.js.",
-        company: "Marimbondo",
-        twitter: "bazevedo",
-        github: "bazevedo"
-      },
-      {
-        name: "Cynthia Zanoni",
-        gravatar: "acf2c97fd68b165d50bdf8f446afc0e7",
-        bio: "Desenvolvedora web há 4 anos e graduanda do curso de Sistemas para Internet. É fundadora da Think, Startup Digital com foco em soluções <em>bespoke</em>, onde trabalha com Front-end e Search Intelligence. Geek, fã de Schweppes e entusiasta de mobile, participa de comunidades locais e é uma das organizadoras da Mobile Brazil Conference.",
-        comment: "Dedicada a pesquisa nas áreas de Search e UX Design, Cynthia vai falar de forma objetiva sobre algo bastante pertinente: Search engine optimization.",
-        company: "Think",
-        twitter: "cynthia_zanoni",
-        github: "cyz"
+        name: "Yasir Siddiqui",
+        image: "images/speakers/yasir.jpg",
+        bio: "Yasir Siddiqui is passionate about startups and technology. In fact, Yasir is one of the cofounders of <a href=\"http://hardwareguild.com/\">Hardware Guild</a> with a mission to create a hub for hardware entrepreneurs and supports. In addition, Yasir is a mentor to about a dozen hardware startups in Montreal. Previously, he has about seven years of experience in IT sales, IT strategy and Business consulting primarily in the aviation industry. Moreover, he has launched three startups: two service businesses and a non-for-profit.  Fun fact: Yasir\'s first startup was in Pakistan when he was still in high school.",
+        comment: "",
+        company: "Hardware Guild",
+        twitter: "",
+        github: ""
       }
+      //{
+      //  name: "Alex Daskalov",
+      //  gravatar: "572696200604e59baa59ee90d61f7d02",
+      //  bio: "Mais de 8 anos de experiência em desenvolvimento Web, apaixonado por JavaScript, curador da BrazilJS Conf e um dos criadores e líderes da BrazilJS Foundation. Trabalha atualmente no Terra criando ferramentas e APIs JavaScript e pesquisando novas tecnologias, como HTML5 e todo o seu guarda-chuva, Node.JS e, é claro, JavaScript",
+      //  comment: "Apoiado na evolução do desenvolvimento front-end e como um verdadeiro <a href=\"http://jaydson.org/cultura-maldita-no-desenvolvimento-de-software/\" target=\"_blank\">exterminador <del>do futuro</del> da cultura maldita</a>, Jaydson vai falar sobre a revolução a qual liderou em nome de produtos mais robustos, escaláveis e de qualidade.",
+      //  company: "BackTrack",
+     //   twitter: "jaydson",
+     //   github: "jaydson"
+     // }
     ],
 
     // The entire schedule
@@ -314,7 +253,17 @@ module.exports = {
         name: "Real Ventures",
         logo: "images/sponsors/Real_Ventures_logo.png",
         url: "http://realventures.com/en/"
-      }
+      },
+      {
+        name: "Hardware Guild",
+        logo: "images/sponsors/hardwareguild-logo-black-L.jpg",
+        url: "http://hardwareguild.com"
+      },
+      {
+      	name: "MTL NewTech",
+        logo: "images/sponsors/mtlnewtech-big.png",
+        url: "http://mtlnewtech.com/"
+      }   
     ],
 
     //List of Partners

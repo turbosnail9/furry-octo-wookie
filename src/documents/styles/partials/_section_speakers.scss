@@ -26,7 +26,7 @@
   @extend %grayscale;
 }
 .speaker-info {
-  width: percentage(640px/$site-width);
+  width: percentage(600px/$site-width);
   padding-left: percentage(20px/$site-width);
   display: inline-block;
   vertical-align: top;

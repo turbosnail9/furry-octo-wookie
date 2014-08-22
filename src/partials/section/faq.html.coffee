@@ -32,7 +32,8 @@ div class: 'wrapper', ->
   div class: 'about-text', itemprop: 'description', ->
     h3 ->
       span 'How much will WearHacks cost me?'
-    p -> 'Zero. Zilch. Nada. WearHacks is absolutely free! Price of admission is a "can do" attitude and a burning desire to <i>get shit done</i>.'
+    p -> 'For the first 180 persons, WearHacks will absolutely free! Price of admission is a "can do" attitude and a burning desire to <i>get shit done</i>. After that first 180 tickets are gone, 
+      the price will be $15 a ticket, with a *wink* <i>special</i> discount for student hackers. Contact us to get the discount code. :)'
   #div class: 'about-text', itemprop: 'description', ->
   #  h3 ->
   #    span 'How do I get to WearHacks?'
