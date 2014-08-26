@@ -23,7 +23,8 @@ div class: 'wrapper', ->
         img src: '/images/wearables/meta.png', class: 'about-photo'
         img src: '/images/wearables/black_myo_top.png', class: 'about-photo'
         img src: '/images/wearables/nod.png', class: 'about-photo'
-      
+        img src: '/images/wearables/OculusRift.png', class: 'about-photo'
+
       img src: '/images/wearables/equal.svg', class: 'about-equal'  
 
       div class: 'cycle-slideshow', data-index: 3, ->

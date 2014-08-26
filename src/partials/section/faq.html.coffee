@@ -88,6 +88,9 @@ div class: 'wrapper', ->
     p -> a href: 'https://www.mbientlab.com/', ->'MetaWear'
     p -> a href: 'http://estimote.com/', ->'Estimote'
     p -> a href: 'http://hellonod.com/', ->'Nod Ring'
+    p -> a href: 'http:http://www.oculusvr.com/', -> 'Oculus Rift'
+    p -> a href: 'https://intelligentheadset.com/', -> 'Intelligent Headset'
+    p -> a href: 'http://devicefactory.com/df1/', -> 'DF1'
   div class: 'about-text', itemprop: 'description', ->
     h3 ->
       span 'I have a question that is not listed here. Who should I ask?'

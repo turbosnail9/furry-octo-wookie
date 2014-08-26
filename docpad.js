@@ -258,12 +258,12 @@ module.exports = {
         name: "Hardware Guild",
         logo: "images/sponsors/hardwareguild-logo-black-L.jpg",
         url: "http://hardwareguild.com"
-      },
-      {
-      	name: "MTL NewTech",
-        logo: "images/sponsors/mtlnewtech-big.png",
-        url: "http://mtlnewtech.com/"
-      }   
+      }
+      //{
+      //	name: "Device Factory",
+      //  logo: "images/sponsors/mtlnewtech-big.png",
+      //  url: "http://devicefactory.com/"
+      //}   
     ],
 
     //List of Partners

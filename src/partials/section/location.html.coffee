@@ -1,7 +1,7 @@
 div class: 'wrapper', ->
   h2 class: 'section-title', ->
     span 'Where the'
-    text ' magic happens!'
+    text ' magic happens'
   div class: 'address', itemprop: 'address', itemscope: null, itemtype: 'http://schema.org/PostalAddress', ->
     span itemprop: 'streetAddress', @conf.address
     text ' • '
