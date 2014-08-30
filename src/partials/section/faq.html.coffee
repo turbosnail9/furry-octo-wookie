@@ -91,6 +91,7 @@ div class: 'wrapper', ->
     p -> a href: 'http:http://www.oculusvr.com/', -> 'Oculus Rift'
     p -> a href: 'https://intelligentheadset.com/', -> 'Intelligent Headset'
     p -> a href: 'http://devicefactory.com/df1/', -> 'DF1'
+    p -> a href: 'http://www.choosemuse.com/', -> 'Muse Headband'
   div class: 'about-text', itemprop: 'description', ->
     h3 ->
       span 'I have a question that is not listed here. Who should I ask?'

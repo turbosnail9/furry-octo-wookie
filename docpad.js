@@ -240,7 +240,8 @@ module.exports = {
         name: "Nod",
          logo: "images/sponsors/NodLogo1.png",
          url: "https://www.hellonod.com/"
-      }  
+      }
+      
     ],
 
  	  sponsorswalle: [
@@ -248,6 +249,16 @@ module.exports = {
         name: "Mbient Lab",
         logo: "images/sponsors/mbient-logo.png",
         url: "https://www.mbientlab.com/"
+      },
+      {
+      	name: "Heddoko",
+        logo: "images/sponsors/Heddoko.png",
+        url: "http://heddoko.com/"
+      },
+      {
+      	name: "Device Factory",
+        logo: "images/sponsors/df-logo-solid-black-white.png",
+        url: "http://devicefactory.com/"
       },
       {
         name: "Real Ventures",
@@ -259,11 +270,7 @@ module.exports = {
         logo: "images/sponsors/hardwareguild-logo-black-L.jpg",
         url: "http://hardwareguild.com"
       }
-      //{
-      //	name: "Device Factory",
-      //  logo: "images/sponsors/mtlnewtech-big.png",
-      //  url: "http://devicefactory.com/"
-      //}   
+      
     ],
 
     //List of Partners

@@ -1066,6 +1066,7 @@ a {
 
 .partner-item-walle {
   width: 20%;
+  margin: 0 0.5% 2% 0.5%;
   min-width: 6.25rem;
   margin-left: auto;
   margin-right: auto;
@@ -1073,6 +1074,7 @@ a {
 
 .partner-item-r2d2 {
   width: 25%;
+  margin: 0 0.5% 2% 0.5%;
   min-width: 6.25rem;
   display: inline-block; }
 
