@@ -256,6 +256,11 @@ module.exports = {
         url: "http://heddoko.com/"
       },
       {
+      	name: "BackTrack",
+        logo: "images/sponsors/backtrack.png",
+        url: ""
+      },
+      {
       	name: "Device Factory",
         logo: "images/sponsors/df-logo-solid-black-white.png",
         url: "http://devicefactory.com/"
