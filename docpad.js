@@ -258,7 +258,7 @@ module.exports = {
       {
       	name: "BackTrack",
         logo: "images/sponsors/backtrack.png",
-        url: ""
+        url: "http://backtrackwear.com"
       },
       {
       	name: "Device Factory",
