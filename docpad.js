@@ -37,6 +37,7 @@ module.exports = {
     sections: [
       "about",
       "faq",
+      "judges",
       "speakers",
       //"presenter",
       "schedule",
@@ -50,6 +51,7 @@ module.exports = {
       "home",
       "about",
       "faq",
+      "judges",
       "speakers",
       "schedule",
       "location",
@@ -63,6 +65,7 @@ module.exports = {
       home: "Home",
       about: "About",
       faq: "FAQ",
+      judges: "Judges",
       speakers: "Mentors",
       schedule: "Schedule",
       location: "Venue",
@@ -71,17 +74,29 @@ module.exports = {
       collaborate: "Contact"
     },
 
-    // List of speakers
-    speakers: [
+    // List of speakers and judges
+    judges: [
       {
         name: "Alexander Lynn",
-        image: "images/speakers/alexlynn.jpg",
+        image: "images/judges/alexlynn.jpg",
         bio: "Alex plays a key role in building out the <a href=\"http://realventures.com/en/\">Real Ventures</a> brand, all while acting as a resource to portfolio companies and thinking about where <a href=\"http://founderfuel.com/en/\">FounderFuel</a> is heading next. Before this, he helped world-class brands innovate at Sid Lee and founded TEDxMontreal. In his spare time he drinks tea, reads books, designs things and travels",
         comment: "",
         company: "Real Ventures",
         twitter: "AlexandreLynn",
         github: ""
       },
+      {
+        name: "François Bergeron",
+        image: "images/judges/francois.jpg",
+        bio: "Following studies in life sciences and work experience in developing biomedical technologies, Francois founded Tactus Scientific, an awarded Montreal-based company creating laboratory instruments. Researcher turned into entrepreneur, he likes helping young technology companies achieve success and is actively seeking the way to boost innovation and entrepreneurship in Montreal. Francois is now co-founding the Hardware Guild, a missing link in the connected hardware startup ecosystem. He graduated from University of Sherbrooke and HEC Montreal.",
+        comment: "",
+        company: "Hardware Guild",
+        twitter: "",
+        github: ""
+      }
+    ],
+
+    speakers: [
       {
         name: "Yasir Siddiqui",
         image: "images/speakers/yasir.jpg",
@@ -99,6 +114,12 @@ module.exports = {
 		company: "Hedoko",
 		twitter: "",
 		github: ""
+      },
+      {
+      	name:"Stéphane Tessier",
+      	image: "images/speakers/tessier.jpg",
+      	bio: "Stéphane ia an electronics hardware designer.  After two decades in industry, he has worked in larger companies (Matrox, Broadcom, Electro Scientific Industries) as well as start-ups (Isaac Newton Technologies / Radical Horizon, EnCentrus Systems).  Areas of expertise include maintaining and improving (HW and embedded FW) industrial lasers, designing Media Center, BluRay (SoC) and network (Ethernet) consumer products as well as working on the development of Software Defined Radios (SDR). He will always be interested in the design, development and application of new technologies to concrete problems in various fields.",
+      	comment: ""
       }
       //{
       //  name: "Alex Daskalov",
@@ -292,11 +313,15 @@ module.exports = {
          url: "https://www.google.ca/intl/en/about/"
       },
       {
+        name: "Datastax",
+         logo: "images/sponsors/datastax_logo.png",
+         url: "http://www.datastax.com/"
+      }, 
+      {
         name: "Nod",
          logo: "images/sponsors/NodLogo1.png",
          url: "https://www.hellonod.com/"
       }
-      
     ],
 
  	  sponsorswalle: [
@@ -346,6 +371,10 @@ module.exports = {
       return name.toLowerCase().replace(/\s+/g, '-').replace(/[.!:?;,]/g, '');
     },
 
+    judgeId: function (name) {
+      return 'judges-' + this.nameId(name);
+    },
+
     speakerId: function (name) {
       return 'speakers-' + this.nameId(name);
     },
@@ -358,10 +387,24 @@ module.exports = {
       return slot.image || this.speakerImgSrc(this.slotSpeaker(slot));
     },
 
+    slotImgSrc: function (slot) {
+      return slot.image || this.judgeImgSrc(this.slotJudge(slot));
+    },
+
+    slotJudge: function (slot) {
+      return slot.judge && this.judges.filter(function (judge) {
+        return judge.name == slot.judge;
+      })[0];
+    },
+
     slotSpeaker: function (slot) {
       return slot.speaker && this.speakers.filter(function (speaker) {
         return speaker.name == slot.speaker;
       })[0];
+    },
+
+    judgeImgSrc: function (judge) {
+      return judge && (judge.image || "https://0.gravatar.com/avatar/" + judge.gravatar + "?s=400")
     },
 
     speakerImgSrc: function (speaker) {

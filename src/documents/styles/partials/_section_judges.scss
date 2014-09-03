@@ -1,0 +1,58 @@
+.section-judges {
+  @include texture("dark-blue");
+  .section-title {
+    @include hide-bottom-line;
+    margin-bottom: 0;
+    @media screen and (min-width:$minor-viewport) {
+      font-size: rem(55px);
+    }
+  }
+}
+
+.judges-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.judge-item {
+  margin-top: rem(-40px);
+  padding-top: rem(100px);
+}
+.judge-photo {
+  width: percentage(240px/$site-width);
+  margin-right: percentage(60px/$site-width);
+  display: inline-block;
+  border-radius: 50%;
+  @extend %grayscale;
+}
+.judge-info {
+  width: percentage(600px/$site-width);
+  padding-left: percentage(20px/$site-width);
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+.judge-name {
+  font-size: rem(22px);
+  margin: 0;
+  position: relative;
+  @media screen and (min-width:$minor-viewport) {
+    font-size: rem(30px);
+    &:before {
+      top: 16%;
+      bottom: 16%;
+      left: percentage(-20px/640px);
+      position: absolute;
+      border-left: $marker-size solid $red;
+      content: '';
+    }
+  }
+}
+.judge-bio {
+  margin: rem(20px) 0 0;
+}
+.judge-comment {
+  position: relative;
+  padding-left: 20px;
+  @include left-line(100%);
+}
