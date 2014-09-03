@@ -289,6 +289,7 @@ module.exports = {
        }
     ],
     sponsorst1000: [
+      
       {
         name: "La Commune",
         logo: "images/sponsors/LaCommunelogo.png",
@@ -311,11 +312,6 @@ module.exports = {
         name: "Google",
          logo: "images/sponsors/google.png",
          url: "https://www.google.ca/intl/en/about/"
-      },
-      {
-        name: "Datastax",
-         logo: "images/sponsors/datastax_logo.png",
-         url: "http://www.datastax.com/"
       }, 
       {
         name: "Nod",
@@ -325,6 +321,11 @@ module.exports = {
     ],
 
  	  sponsorswalle: [
+ 	  {
+        name: "Datastax",
+        logo: "images/sponsors/datastax_logo.png",
+        url: "http://www.datastax.com/"
+      },
       {
         name: "Mbient Lab",
         logo: "images/sponsors/mbient-logo.png",
