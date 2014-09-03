@@ -39,7 +39,7 @@ module.exports = {
       "faq",
       "speakers",
       //"presenter",
-      //"schedule",
+      "schedule",
       "location",
       "sponsors",
       "organizers", 
@@ -51,7 +51,7 @@ module.exports = {
       "about",
       "faq",
       "speakers",
-      //"schedule",
+      "schedule",
       "location",
       "sponsors",
       "organizers",
@@ -90,6 +90,15 @@ module.exports = {
         company: "Hardware Guild",
         twitter: "",
         github: ""
+      },
+      {
+      	name: "Mazen Elbawab",
+      	image: "images/speakers/MazenElbawab.jpg",
+      	bio: "Mazen Elbawab, also known as the \"Man with the Plan,\" is a versatile computer and software engineer with a propensity for entrepreneurship. He has worked over 8 years in the gaming and entertainment industry, medical imaging and biomedical  industry with notable companies such as Ubisoft, Sega, Electronic Arts and Siemens.  His first startup venture was in 2011 where he helped over 5 different startups engineer and develop their software systems. His areas of expertise are Motion capture, game development, 3D and generic software development. He holds a bachelor degree in Computer Engineering from Ecole Polytechnique de Montreal where he graduated “magna cum laude” in 2005 with already a year of international work experience under his belt. He sees entrepreneurship as an investment in his society’s future and the perfect way to make things better around us. His unquenchable fascination of learning how things work and his mantra of patience and hard work awarded him many academic recognitions including the prestigious “Francois Munier Mathematical Award”. His dedication also led Heddoko to the top 3 companies at the \"International Startup Festival\", and Finishing top 2 at the \"Founder Institute Program\" only 3 months into the life of the company.",
+		comment: "",
+		company: "Hedoko",
+		twitter: "",
+		github: ""
       }
       //{
       //  name: "Alex Daskalov",
@@ -105,93 +114,139 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        date: "Sep 26",
-        time: "18:00",
-        name: "Check-in",
-        image: "images/schedule/check-in.svg"
+        date: "Friday September 26th",
+        time: "17:30",
+        speaker: "",
+        name: "Registration",
+        description: "Arrive at the venue and get checked in."
+        //image: "images/schedule/check-in.svg"
       },
       {
-        time: "18:50",
-        speaker: "Randal Maia",
-        name: "Acelere, faça amigos e aprenda com seu guia de estilos",
-        description: "Sabe aquele momento em que o designer entrega milhões de telas e você sente que não vai dar conta de todas as tarefas? Nesta talk, quero falar sobre como acelerar seu processo de desenvolvimento, fazer amigos dentro da sua equipe, compartilhar seu conhecimento e ter seu próprio guia de estilos."
+        time: "19:00",
+        name: "Snacks & Networking",
+        //image: "images/schedule/coffee.svg"
+        description: "Eat food, share ideas, practice pitches, get to know fellow participants."
+      },
+      {
+        time: "19:20",
+        name: "Welcome",
+        description: "Review agenda for the weekend and introduce mentors and judges"
       },
       {
         time: "19:30",
-        speaker: "Eduardo Gouvêa",
-        name: "Festival da boa vizinhança: UX - Front end",
-        description: "Hoje em dia, profissionais de UX são bastante requeridos nas empresas que focam em serviços e produtos digitais. E como fica a interação entre essa área de UX e os desenvolvedores no final do processo? Nesta talk, quero falar sobre a importância de planejar a Experiência do Usuário e como ela afeta e influencia o front-end e vice-versa."
+        name: "Pitches Start",
+        description:"Optionally line up to give your pitch"
+        //image: "images/schedule/coffee.svg"
       },
       {
-        time: "20:00",
-        name: "Coffee",
-        image: "images/schedule/coffee.svg"
+        time: "21:00",
+        //speaker: "Reinaldo Ferraz",
+        name: "Voting",
+        description: "Attendees vote for the top pitches"
       },
       {
-        time: "20:20",
-        speaker: "Reinaldo Ferraz",
-        name: "Acessibilidade na web modo Jedi Master",
-        description: "Já conhece o básico de acessibilidade na Web? Então está na hora de partir do modo Padawan para Jedi Master entendendo o potencial do HTML5 para acessibilidade e como utilizar WAI-ARIA para manipular elementos e enriquecer sua aplicação Web."
+        time: "21:15",
+        //speaker: "Reinaldo Ferraz",
+        name: "Form Teams",
+        description: "Teams start forming and discussing ideas"
       },
       {
-        date: "Sep 27",
-        time: "11:10",
-        speaker: "Cynthia Zanoni",
-        name: "E que tal descobrir que você entende muito de SEO?",
-        description: "SEO é visto como um diferencial competitivo no mercado, \"coisa\" de analista ou produtor de conteúdo. Mas já parou para pensar o quanto você é importante no processo de otimização? Vamos traçar um Roadmap sobre otimização e você vai descobrir que manja mais de SEO do que imaginava. Esqueça os clichês sobre posicionamento e vamos otimizar!"
+        time: "22:00",
+        //speaker: "Reinaldo Ferraz",
+        name: "Wrap Up",
+        description: "Start to formalize teams and take an inventory of skills. Be honest, and direct about what resources and skills are needed. We\'ll see you tomorrow morning"
       },
       {
-        time: "11:30",
-        speaker: "Bruno Azevedo",
-        name: "Não seja um desenvolvedor Chucro! Como economizar tempo e melhorar os seus projetos utilizando Grunt",
-        description: "Um guia prático de utilização da ferramenta Grunt. Veremos como o nosso desenvolvimento pode se tornar mais fácil e quanto tempo podemos economizar automatizado tarefas repetitivas."
+        date: "Saturday September 27th",
+        time: "9:00",
+        //speaker: "Cynthia Zanoni",
+        name: "Breakfast",
+        description: "Arrive, simple breakfast & coffee"
+        //image: "images/schedule/lunch.svg"
+      },
+      {
+        time: "9:30",
+        speaker: "",
+        name: "Begin Work",
+        description: "Teams formed and setting up workspace for the weekend",
       },
       {
         time: "12:00",
-        name: "Almoço",
-        image: "images/schedule/lunch.svg"
+        name: "Lunch"
+        //image: "images/schedule/lunch.svg"
       },
       {
-        time: "13:30",
-        speaker: "Franz Figueroa",
-        name: "Em breve",
-        description: "Em breve"
+        time: "13:00",
+        speaker: "",
+        name: "Check-in",
+        description: "How\'s everything going?"
       },
       {
-        date: "Sep 28",
-        time: "14:20",
-        speaker: "Átila Fassina",
-        name: "Responsive Web Workflow",
-        description: "Trabalhar com Web Design Responsivo pode ser confuso, é um cenário em constante e rápida evolução, cheio de diferentes opções para escolher e se adaptar, novas tendências. Não existe bala de prata, mas nessa talk vamos avaliar práticas sugeridas e escolher nossas metodologias com um toolset básico para montar um projeto com nossas próprias guidelines."
+        time: "14:00",
+        speaker: "",
+        name: "Mentor Meetings",
+        description: "Mentors help teams one-on-one. They are here to help!"
       },
       {
-        time: "15:10",
-        speaker: "Glauber Ramos",
-        name: "Técnicas e organização de CSS",
-        description: "Nessa talk falarei sobre técnicas e organização de CSS, como podemos usar pré-processadores hoje em dia, variáveis, nesting e mixins. Diferentes técnicas de organização de CSS como SMACSS, BEM, DRY CSS e OOCSS. Normalize, grids semânticos, dicas de CSS e como utilizar boas práticas utilizadas pelos frameworks mais famosos (Bootstrap, Inuit, Pure, Foundation) para criar seu próprio framework."
+        time: "18:00",
+        speaker: "",
+        name: "Dinner",
+        description: "Good food"
+      },
+      {
+        time: "22:00",
+        speaker: "",
+        name: "Wrap-Up",
+        description: "Finished for the day. You may stay and work as late as the venue will allow"
+      },
+      {
+        date: "Sunday September 28th",
+        time: "9:00",
+        speaker: "",
+        name: "Breakfast",
+        description: "Arrive, simple breakfast & coffee"
+      },
+      {
+        time: "10:00",
+        speaker: "",
+        name: "Check-In",
+        description: "Coaches arrive. Final opportunity to ask questions"
+      },
+      {
+        time: "12:00",
+        name: "Lunch"
+        //image: "images/schedule/coffee.svg"
+      },
+      {
+        time: "12:30",
+        speaker: "",
+        name: "Mentor Meetings",
+        description: "Mentors arrive… ASK QUESTIONS"
+      },
+      {
+        time: "15:00",
+        speaker: "",
+        name: "Presentation Prep & Tech Check",
+        description: "Final hours of worktime should be focused on perfecting your presentation, tech-check for final presentations also takes place"
       },
       {
         time: "16:00",
-        name: "Coffee",
-        image: "images/schedule/coffee.svg"
+        name: "Dinner",
+        description: ""
+        //image: "images/schedule/closing.svg"
       },
       {
-        time: "16:30",
-        speaker: "Jaydson Gomes",
-        name: "Processo de Desenvolvimento FrontEnd - Do caos ao Sublime",
-        description: "O mundo muda constantemente. Na tecnologia isso é mais evidente, o avanço é exponêncial, e quase não conseguimos acompanhar o que há de mais novo na área em que atuamos. No desenvolvimento de software, a mudança pode influenciar diretamente no sucesso do mesmo. Novas tecnologias, novas ferramentas, novas linguagens, tudo isso deve ser considerado. O JavaScript ocupou o lugar de linguagem mais querida e popular no mundo, depois de passar anos sendo incompreendida. Esta mudança é reflexo do avanço da linguagem, das ferramentas e de todas as tecnologias que a cercam. O modo de se desenvolver código client-side mudou, e para melhor. O ambiente de desenvolvimento não é mais o mesmo, hoje temos um arsenal de ferramentas que nos ajudam a criar aplicações robustas, escaláveis e de qualidade. Praticamente tudo que existe para melhorar o desenvolvimento de software em alguma outra linguagem, também existe para JavaScript. Testes unitários, testes funcionais, ferramentas de build, validação de sintaxe, validação de convenções, integração contínua, etc. Todos os itens acima, e muitos outros, são essenciais em qualquer tipo de software, e atualmente temos o poder de tornar nossas aplicações JavaScript muito mais confiáveis do que há alguns anos. O objetivo da palestra é apresentar as principais ferramentas, tecnologias e técnicas disponíveis para o desenvolvimento de aplicações client-side, além de mostrar na prática, como mudamos completamente o processo de desenvolvimento FrontEnd em um dos maiores portais da América Latina, o Terra."
+        time: "17:00",
+        name: "Final Presentations",
+        description: ""
+        //image: "images/schedule/closing.svg"
       },
       {
-        time: "17:30",
-        speaker: "Vitor Carlos",
-        name: "Press Start",
-        description: "Quer fazer um game para web e não tem nem noção por onde começar? I know that feels, bro. Vamos ver então como estruturar um projeto de game, conhecer conceitos básicos de game design, rever algumas tecnologias disponíveis e conhecer técnicas para contornar as limitações dos games na nossa plataforma favorita, que é a web! :)"
+        time: "19:30",
+        name: "Judging & Awards",
+        description: ""
+        //image: "images/schedule/closing.svg"
       },
-      {
-        time: "18:20",
-        name: "Closing",
-        image: "images/schedule/closing.svg"
-      }
     ],
 
     // List of Sponsors

@@ -15,7 +15,5 @@ div class: 'wrapper', ->
           a href: "##{@speakerId(@slot.speaker)}", class: 'schedule-speaker', @slot.speaker if @slot.speaker
           div class: 'schedule-activity', @slot.name
           if @slot.description
-            a href: "##{@scheduleId(@slot.name)}", class: 'schedule-description-button', 'Details'
-        if @slot.description
-          p class: 'schedule-description', @slot.description
+            p class: 'schedule-description', @slot.description
 
