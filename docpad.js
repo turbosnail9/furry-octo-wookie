@@ -111,7 +111,7 @@ module.exports = {
       	image: "images/speakers/MazenElbawab.jpg",
       	bio: "Mazen Elbawab, also known as the \"Man with the Plan,\" is a versatile computer and software engineer with a propensity for entrepreneurship. He has worked over 8 years in the gaming and entertainment industry, medical imaging and biomedical  industry with notable companies such as Ubisoft, Sega, Electronic Arts and Siemens.  His first startup venture was in 2011 where he helped over 5 different startups engineer and develop their software systems. His areas of expertise are Motion capture, game development, 3D and generic software development. He holds a bachelor degree in Computer Engineering from Ecole Polytechnique de Montreal where he graduated “magna cum laude” in 2005 with already a year of international work experience under his belt. He sees entrepreneurship as an investment in his society’s future and the perfect way to make things better around us. His unquenchable fascination of learning how things work and his mantra of patience and hard work awarded him many academic recognitions including the prestigious “Francois Munier Mathematical Award”. His dedication also led Heddoko to the top 3 companies at the \"International Startup Festival\", and Finishing top 2 at the \"Founder Institute Program\" only 3 months into the life of the company.",
 		comment: "",
-		company: "Hedoko",
+		company: "Heddoko",
 		twitter: "",
 		github: ""
       },
@@ -120,16 +120,15 @@ module.exports = {
       	image: "images/speakers/tessier.jpg",
       	bio: "Stéphane ia an electronics hardware designer.  After two decades in industry, he has worked in larger companies (Matrox, Broadcom, Electro Scientific Industries) as well as start-ups (Isaac Newton Technologies / Radical Horizon, EnCentrus Systems).  Areas of expertise include maintaining and improving (HW and embedded FW) industrial lasers, designing Media Center, BluRay (SoC) and network (Ethernet) consumer products as well as working on the development of Software Defined Radios (SDR). He will always be interested in the design, development and application of new technologies to concrete problems in various fields.",
       	comment: ""
+      },
+      {
+        name: "Alex Daskalov",
+        image: "images/speakers/alex.jpg",
+        bio: "Alex is the co-founder of one of our sponsors, <a href=\"http://backtrackwear.com/\">Backtrack</a>, a company developing a wearable device to help lower back pain patients recover. In an age where technology is as often applied to make fun toys as it is to solve real problems, Alex is choosing to spend his time finding and solving the problems he finds important. This interest led him from the educational space, which he found rewarding but unbearably resistant to change, to healthcare, where he feels he can make a bigger difference. Alex grew up seeing computers and the Internet spread first into homes with the ubiquitous Internet connection, then into pockets, with the emergence of smartphones. With that infrastructure in place, he's excited to be part of the next vanguard that begins building on top of it, in his case to track and analyze movement data that will help us lead healthier, less pain-ridden lives. He's equally excited about what others can accomplish, which is what brings him enthusiastically to WearHacks.",
+        company: "BackTrack",
+        twitter: "",
+        github: ""
       }
-      //{
-      //  name: "Alex Daskalov",
-      //  gravatar: "572696200604e59baa59ee90d61f7d02",
-      //  bio: "Mais de 8 anos de experiência em desenvolvimento Web, apaixonado por JavaScript, curador da BrazilJS Conf e um dos criadores e líderes da BrazilJS Foundation. Trabalha atualmente no Terra criando ferramentas e APIs JavaScript e pesquisando novas tecnologias, como HTML5 e todo o seu guarda-chuva, Node.JS e, é claro, JavaScript",
-      //  comment: "Apoiado na evolução do desenvolvimento front-end e como um verdadeiro <a href=\"http://jaydson.org/cultura-maldita-no-desenvolvimento-de-software/\" target=\"_blank\">exterminador <del>do futuro</del> da cultura maldita</a>, Jaydson vai falar sobre a revolução a qual liderou em nome de produtos mais robustos, escaláveis e de qualidade.",
-      //  company: "BackTrack",
-     //   twitter: "jaydson",
-     //   github: "jaydson"
-     // }
     ],
 
     // The entire schedule
