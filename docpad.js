@@ -109,7 +109,7 @@ module.exports = {
       {
       	name: "Mazen Elbawab",
       	image: "images/speakers/MazenElbawab.jpg",
-      	bio: "Mazen Elbawab, also known as the \"Man with the Plan,\" is a versatile computer and software engineer with a propensity for entrepreneurship. He has worked over 8 years in the gaming and entertainment industry, medical imaging and biomedical  industry with notable companies such as Ubisoft, Sega, Electronic Arts and Siemens.  His first startup venture was in 2011 where he helped over 5 different startups engineer and develop their software systems. His areas of expertise are Motion capture, game development, 3D and generic software development. He holds a bachelor degree in Computer Engineering from Ecole Polytechnique de Montreal where he graduated “magna cum laude” in 2005 with already a year of international work experience under his belt. He sees entrepreneurship as an investment in his society’s future and the perfect way to make things better around us. His unquenchable fascination of learning how things work and his mantra of patience and hard work awarded him many academic recognitions including the prestigious “Francois Munier Mathematical Award”. His dedication also led Heddoko to the top 3 companies at the \"International Startup Festival\", and Finishing top 2 at the \"Founder Institute Program\" only 3 months into the life of the company.",
+      	bio: "Mazen Elbawab, also known as the \"Man with the Plan,\" is a versatile computer and software engineer with a propensity for entrepreneurship. He has worked over 8 years in the gaming and entertainment industry, medical imaging and biomedical  industry with notable companies such as Ubisoft, Sega, Electronic Arts and Siemens.  His first startup venture was in 2011 where he helped over 5 different startups engineer and develop their software systems. His areas of expertise are Motion capture, game development, 3D and generic software development. He holds a bachelor degree in Computer Engineering from Ecole Polytechnique de Montreal where he graduated “magna cum laude” in 2005 with already a year of international work experience under his belt. He sees entrepreneurship as an investment in his society’s future and the perfect way to make things better around us. His unquenchable fascination of learning how things work and his mantra of patience and hard work awarded him many academic recognitions including the prestigious “Francois Munier Mathematical Award”. His dedication also led <a href=\"http://www.heddoko.com/\">Heddoko</a> to the top 3 companies at the \"International Startup Festival\", and Finishing top 2 at the \"Founder Institute Program\" only 3 months into the life of the company.",
 		comment: "",
 		company: "Heddoko",
 		twitter: "",
@@ -126,6 +126,30 @@ module.exports = {
         image: "images/speakers/alex.jpg",
         bio: "Alex is the co-founder of one of our sponsors, <a href=\"http://backtrackwear.com/\">Backtrack</a>, a company developing a wearable device to help lower back pain patients recover. In an age where technology is as often applied to make fun toys as it is to solve real problems, Alex is choosing to spend his time finding and solving the problems he finds important. This interest led him from the educational space, which he found rewarding but unbearably resistant to change, to healthcare, where he feels he can make a bigger difference. Alex grew up seeing computers and the Internet spread first into homes with the ubiquitous Internet connection, then into pockets, with the emergence of smartphones. With that infrastructure in place, he's excited to be part of the next vanguard that begins building on top of it, in his case to track and analyze movement data that will help us lead healthier, less pain-ridden lives. He's equally excited about what others can accomplish, which is what brings him enthusiastically to WearHacks.",
         company: "BackTrack",
+        twitter: "",
+        github: ""
+      },
+      {
+        name: "Antonio Bacichetti",
+        image: "images/speakers/Antonio.jpg",
+        bio: "Antonio is an engineer in physics and a computer science technologist who is passionate about   transforming ideas in to real products. With a background of 10 years in the health and research industries, he has managed teams and design several different devices sold internationally, mainly in the dermatology sector. His solid education in the basic sciences of physics, mathematics and engineering combined with years of experience make cutting edge integration of electronic, mechanic, software and optical systems just part of a normal day at the office.",
+        company: "Tactus Scientific",
+        twitter: "",
+        github: ""
+      },
+      {
+        name: "Jonathan Olesik",
+        image: "images/speakers/jonathan.jpg",
+        bio: "Jonathan is an electrical engineer who has been working on electronics for the last 14 years.  He has been active in the montreal startup community for the last three years and is currently working with over 5 startups; which cover wearables, internet of things, home automation, and new sensor development.  Jonathan has been working in the medical, health and sensing field starting in university with his capstone project which was a brain computer interface, working for a oncology software startup which would identify possible drug interactions to health practitioners and designing new optical sensors for biomedical researchers. Currently he is the lead engineer at Heddoko creating a wearable motion capture platform.",
+        company: "Heddoko",
+        twitter: "",
+        github: ""
+      },
+      {
+        name: "Normand Bourdage",
+        image: "images/speakers/normand.jpg",
+        bio: "Normand is a mechanical engineer and also a tech in aircraft manufacturing. He has worked for more than a decade for large manufacturing corporations (Liebherr, Pratt & Withney, CAE, GE) in multiple countries. His area of expertise covers: CAD/PLM, mechanical design and software development (flight sim). He is the designer of the Solid Utopia 3D printer and various iterations of it. He is passionate of design, development and problem solving related with new technologies.",
+        company: "Solid Utopia",
         twitter: "",
         github: ""
       }
