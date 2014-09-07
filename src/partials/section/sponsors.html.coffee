@@ -26,4 +26,8 @@ div class: 'wrapper', ->
       li class: 'partner-item-walle', itemscope: null, itemtype: 'http://schema.org/Organization', ->
         a href: @sponsor.url, class: 'partner-link', itemprop: 'url', target: '_blank', ->
           img src: @sponsor.logo, alt: @sponsor.name, class: 'sponsor-logo', itemprop: 'image'
+    for @sponsor in @sponsorslowest
+      li class: 'partner-item-lowest', itemscope: null, itemtype: 'http://schema.org/Organization', ->
+        a href: @sponsor.url, class: 'partner-link', itemprop: 'url', target: '_blank', ->
+          img src: @sponsor.logo, alt: @sponsor.name, class: 'sponsor-logo', itemprop: 'image'
   

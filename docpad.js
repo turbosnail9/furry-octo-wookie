@@ -303,16 +303,19 @@ module.exports = {
          url: "http://www.hackinghealth.ca/"
        }
     ],
-    sponsorsoptimus: [
-      
+    sponsorsoptimus: [ 
        {
+        name: "Morgan Stanley",
+        logo: "images/sponsors/ms.jpg",
+        url: "http://www.morganstanley.com/"
+      }
+    ],
+    sponsorst1000: [ 
+      {
          name: "Thalmic Labs",
          logo: "images/sponsors/thalmic_labs_logo.jpg",
          url: "https://www.thalmic.com/en/myo/"
-       }
-    ],
-    sponsorst1000: [
-      
+      },
       {
         name: "La Commune",
         logo: "images/sponsors/LaCommunelogo.png",
@@ -335,6 +338,11 @@ module.exports = {
         name: "Google",
          logo: "images/sponsors/google.png",
          url: "https://www.google.ca/intl/en/about/"
+      },
+      {
+        name: "Datastax",
+        logo: "images/sponsors/datastax_logo.png",
+        url: "http://www.datastax.com/"
       }, 
       {
         name: "Nod",
@@ -345,9 +353,9 @@ module.exports = {
 
  	  sponsorswalle: [
  	  {
-        name: "Datastax",
-        logo: "images/sponsors/datastax_logo.png",
-        url: "http://www.datastax.com/"
+      	name: "Heddoko",
+        logo: "images/sponsors/Heddoko.png",
+        url: "http://heddoko.com/"
       },
       {
         name: "Mbient Lab",
@@ -355,31 +363,28 @@ module.exports = {
         url: "https://www.mbientlab.com/"
       },
       {
-      	name: "Heddoko",
-        logo: "images/sponsors/Heddoko.png",
-        url: "http://heddoko.com/"
-      },
-      {
       	name: "BackTrack",
         logo: "images/sponsors/backtrack.png",
         url: "http://backtrackwear.com"
-      },
-      {
-      	name: "Device Factory",
-        logo: "images/sponsors/df-logo-solid-black-white.png",
-        url: "http://devicefactory.com/"
       },
       {
         name: "Real Ventures",
         logo: "images/sponsors/Real_Ventures_logo.png",
         url: "http://realventures.com/en/"
       },
-      {
+       {
         name: "Hardware Guild",
         logo: "images/sponsors/hardwareguild-logo-black-L.jpg",
         url: "http://hardwareguild.com"
-      }
+      },
       
+    ],
+      sponsorslowest: [
+      {
+      	name: "Device Factory",
+        logo: "images/sponsors/df-logo-solid-black-white.png",
+        url: "http://devicefactory.com/"
+      }
     ],
 
     //List of Partners

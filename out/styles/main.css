@@ -1072,9 +1072,17 @@ a {
   min-width: 9.375rem;
   display: inline-block; }
 
+.partner-item-lowest {
+  width: 15%;
+  margin: 0 0.5% 2% 1%;
+  min-width: 6.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 .partner-item-walle {
   width: 20%;
-  margin: 0 0.5% 2% 0.5%;
+  margin: 0 0.5% 2% 1%;
   min-width: 6.25rem;
   margin-left: auto;
   margin-right: auto;
@@ -1088,11 +1096,16 @@ a {
 
 .partner-item-t1000 {
   width: 30%;
+  margin: 0 0.5% 2% 0.5%;
   min-width: 6.25rem; }
 
 .partner-item-optimus {
-  width: 35%;
-  min-width: 6.25rem; }
+  width: 45%;
+  margin: 0 0.5% 2% 0.5%;
+  min-width: 6.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 .partner-item-singularity {
   width: 60%;

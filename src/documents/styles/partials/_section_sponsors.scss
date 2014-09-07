@@ -33,10 +33,17 @@
   min-width: rem(150px);
   display: inline-block;
 }
-
+.partner-item-lowest {
+  width: 15%;
+  margin: 0 .5% 2% 1%;
+  min-width: rem(100px);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .partner-item-walle {
   width: 20%;
-  margin: 0 .5% 2% .5%;
+  margin: 0 .5% 2% 1%;
   min-width: rem(100px);
   margin-left: auto;
   margin-right: auto;
@@ -50,11 +57,16 @@
 }
 .partner-item-t1000 {
   width: 30%;
+  margin: 0 .5% 2% .5%;
   min-width: rem(100px);
 }
 .partner-item-optimus {
-  width: 35%;
+  width: 45%;
+  margin: 0 .5% 2% .5%;
   min-width: rem(100px);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .partner-item-singularity {
   width: 60%;
