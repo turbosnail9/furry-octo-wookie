@@ -77,6 +77,15 @@ module.exports = {
     // List of speakers and judges
     judges: [
       {
+        name: "Sylvain Carle",
+        image: "images/judges/sylvain.jpg",
+        bio: "Sylvain Carle lives and breathes emerging technologies. For the last 20 years, he has thrived with marvel and fun at the confluence of media, technology and networks. Entrepreneurship, web software architecture, APIs, digital and social media as well as open-source software and open standards are all at the core of his competence and passion. He has been on many community technology group boards (Ile-Sans-Fil, Alliance Numérique and OSMO) and a serial entrepreneur, CTO and co-founder since 2000 (Messagia, Interstructure, Praized, Needium). Most recently he was Senior Developer Advocate at Twitter in San Francisco, helping strategic partners get the most of the blue bird’s APIs and technology products. Socialist, idealist and pragmatic, he is convinced that technology will change the world in this era of the networked society.",
+        comment: "",
+        company: "FounderFuel",
+        twitter: "froginthevalley",
+        github: ""
+      },
+      {
         name: "Alexander Lynn",
         image: "images/judges/alexlynn.jpg",
         bio: "Alex plays a key role in building out the <a href=\"http://realventures.com/en/\">Real Ventures</a> brand, all while acting as a resource to portfolio companies and thinking about where <a href=\"http://founderfuel.com/en/\">FounderFuel</a> is heading next. Before this, he helped world-class brands innovate at Sid Lee and founded TEDxMontreal. In his spare time he drinks tea, reads books, designs things and travels",
