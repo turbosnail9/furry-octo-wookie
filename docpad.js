@@ -317,6 +317,11 @@ module.exports = {
         name: "Morgan Stanley",
         logo: "images/sponsors/ms.jpg",
         url: "http://www.morganstanley.com/"
+      },
+      {
+        name: "Haivision",
+        logo: "images/sponsors/haivision_logo.png",
+        url: "http://www.haivision.com/"
       }
     ],
     sponsorst1000: [ 
