@@ -102,6 +102,13 @@ module.exports = {
         company: "Hardware Guild",
         twitter: "",
         github: ""
+      },
+      {
+      	name: "Tom Emrich",
+      	image:"images/judges/tom.jpg",
+      	bio:"Tom Emrich is a wearable tech evangelist. He is Founder of We Are Wearables, an organization dedicated to fostering adoption and facilitating innovation in wearable tech through events, education, collaboration and resources. He is also co-founder of Wearable App Review, the first app review site for wearables including Android Wear, Google Glass, Pebble and more. Tom writes about wearables and other emerging tech like the Internet of Things and 3D Printing for a number of sites including MobileSyrup, BetaKit and Designers of Things of which he is the Editor. He has a background in product marketing, development and strategy and has created many apps for mobile and wearable platforms including Google Glass apps Glass Eats and Stay Glassy, TTC. He is also a Google Glass Explorer.",
+        company: "www.wearewearables.com",
+        twitter: "@TomEmrich"
       }
     ],
 
@@ -159,6 +166,14 @@ module.exports = {
         image: "images/speakers/normand.jpg",
         bio: "Normand is a mechanical engineer and also a tech in aircraft manufacturing. He has worked for more than a decade for large manufacturing corporations (Liebherr, Pratt & Withney, CAE, GE) in multiple countries. His area of expertise covers: CAD/PLM, mechanical design and software development (flight sim). He is the designer of the Solid Utopia 3D printer and various iterations of it. He is passionate of design, development and problem solving related with new technologies.",
         company: "Solid Utopia",
+        twitter: "",
+        github: ""
+      },
+      {
+      	name: "Wayne Choi",
+      	image: "images/speakers/wayne.jpg",
+      	bio:"Computer engineer turned emergency doctor, Wayne is excited about using technology to improve the medical system on a day-to-day basis. Having worked as a Program Manager at Microsoft and co-founded the mobile tech company CellMap Inc., he has proven experience in project and team management. He has a knack for understanding problems from the end-user perspective, then properly defining them to the technical team. He also has expertise in user interface design, and is passionate about all things design. Seeing all the inefficiencies and suboptimal design surround him in his daily medical life makes him sad and angry. Let's help Wayne be happy.",
+        company: "",
         twitter: "",
         github: ""
       }
@@ -277,26 +292,26 @@ module.exports = {
         description: "Mentors arrive… ASK QUESTIONS"
       },
       {
-        time: "15:00",
+        time: "13:00",
         speaker: "",
         name: "Presentation Prep & Tech Check",
         description: "Final hours of worktime should be focused on perfecting your presentation, tech-check for final presentations also takes place"
       },
       {
-        time: "16:00",
-        name: "Dinner",
-        description: ""
-        //image: "images/schedule/closing.svg"
-      },
-      {
-        time: "17:00",
+        time: "14:00",
         name: "Final Presentations",
         description: ""
         //image: "images/schedule/closing.svg"
       },
       {
-        time: "19:30",
+        time: "17:00",
         name: "Judging & Awards",
+        description: ""
+        //image: "images/schedule/closing.svg"
+      },
+      {
+        time: "19:30",
+        name: "Dinner",
         description: ""
         //image: "images/schedule/closing.svg"
       },
@@ -398,6 +413,11 @@ module.exports = {
       	name: "Device Factory",
         logo: "images/sponsors/df-logo-solid-black-white.png",
         url: "http://devicefactory.com/"
+      },
+      {
+      	name: "We Are Wearables",
+        logo: "images/sponsors/we_are_wearables.png",
+        url: "http://www.wearewearables.com/"
       }
     ],
 
