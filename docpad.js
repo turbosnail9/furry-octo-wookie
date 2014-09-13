@@ -108,7 +108,7 @@ module.exports = {
       	image:"images/judges/tom.jpg",
       	bio:"Tom Emrich is a wearable tech evangelist. He is Founder of We Are Wearables, an organization dedicated to fostering adoption and facilitating innovation in wearable tech through events, education, collaboration and resources. He is also co-founder of Wearable App Review, the first app review site for wearables including Android Wear, Google Glass, Pebble and more. Tom writes about wearables and other emerging tech like the Internet of Things and 3D Printing for a number of sites including MobileSyrup, BetaKit and Designers of Things of which he is the Editor. He has a background in product marketing, development and strategy and has created many apps for mobile and wearable platforms including Google Glass apps Glass Eats and Stay Glassy, TTC. He is also a Google Glass Explorer.",
         company: "www.wearewearables.com",
-        twitter: "@TomEmrich"
+        twitter: "TomEmrich"
       }
     ],
 
