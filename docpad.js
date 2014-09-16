@@ -97,8 +97,7 @@ module.exports = {
       {
         name: "François Bergeron",
         image: "images/judges/francois.jpg",
-        bio: "Following studies in life sciences and work experience in developing biomedical technologies, Francois founded Tactus Scientific, an awarded Montreal-based company creating laboratory instruments. Researcher turned into entrepreneur, he likes helping young technology companies achieve success and is actively seeking the way to boost innovation and entrepreneurship in Montreal. Francois is now co-founding the Hardware Guild, a missing link in the connected hardware startup ecosystem. He graduated from University of Sherbrooke and HEC Montreal.",
-        comment: "",
+        bio: "Following studies in life sciences and work experience in developing biomedical technologies, Francois co-founded Tactus Scientific, an awarded Montreal-based company creating laboratory instruments and Sensorica, an open-source collaboration network around sensors. Researcher turned into entrepreneur, he likes helping young technology companies achieve success and is actively seeking the way to boost innovation and entrepreneurship in Montreal. Francois is now co-founding the Hardware Guild, a missing link in the connected hardware startup ecosystem and recently joined Innovitech, a strategy firm involved in R&D clusters and innovation management. He graduated from University of Sherbrooke and HEC Montreal.",        comment: "",
         company: "Hardware Guild",
         twitter: "",
         github: ""
@@ -325,7 +324,12 @@ module.exports = {
          name: "Hacking Health",
          logo: "images/sponsors/HH-Logo-vertcial-B-Red.png",
          url: "http://www.hackinghealth.ca/"
-       }
+       },
+       {
+         name: "MTL NewTech",
+         logo: "images/sponsors/mtlnewtech-big.png",
+         url: "http://mtlnewtech.com/"
+       },
     ],
     sponsorsoptimus: [ 
        {
@@ -358,11 +362,11 @@ module.exports = {
 	    }
     ],
     sponsorsr2d2: [
-      //{
-      //  name: "FreshMint",
-      //   logo: "images/sponsors/freshmint.jpg",
-      //   url: "http://www.freshmint.com/"
-      //},
+      {
+        name: "FreshMint",
+         logo: "images/sponsors/freshmint.jpg",
+         url: "http://www.freshmint.com/"
+      },
       {
         name: "Google",
          logo: "images/sponsors/google.png",
@@ -406,6 +410,16 @@ module.exports = {
         logo: "images/sponsors/hardwareguild-logo-black-L.jpg",
         url: "http://hardwareguild.com"
       },
+      {
+        name: "Muse",
+        logo: "images/sponsors/muse.jpg",
+        url: "http://www.choosemuse.com/"
+      },
+      {
+        name: "Neptune",
+        logo: "images/sponsors/neptune.png",
+        url: "http://www.getneptune.com/"
+      }
       
     ],
       sponsorslowest: [
