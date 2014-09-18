@@ -112,6 +112,15 @@ module.exports = {
     ],
 
     speakers: [
+     {
+        name: "Helge Seetzen",
+        image: "images/speakers/helge.png",
+        bio:"Helge is an award-winning technologist, entrepreneur, and a recognized global authority on technology transfer and display technologies. As General Partner of TandemLaunch, he works with inventors and entrepreneurs to build high growth technology companies. His past successes include the transformation of raw university IP into fully commercialized LED TV technology, including selling his last company - Brightside Technologies - to Dolby Laboratories after sealing partnerships with several of the largest consumer electronics companies in the world. Helge holds over 50 patents in the fields of display, camera and video technology.",
+        comment: "",
+        company: "Anges Quebec",
+        twitter: "",
+        github: ""
+      },
       {
         name: "Yasir Siddiqui",
         image: "images/speakers/yasir.jpg",
@@ -427,6 +436,11 @@ module.exports = {
       	name: "Device Factory",
         logo: "images/sponsors/df-logo-solid-black-white.png",
         url: "http://devicefactory.com/"
+      },
+      {
+      	name: "Tandem Launch",
+        logo: "images/sponsors/tandem.png",
+        url: "http://tandemlaunch.com/"
       },
       {
       	name: "We Are Wearables",
