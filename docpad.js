@@ -184,6 +184,14 @@ module.exports = {
         company: "",
         twitter: "",
         github: ""
+      },
+      {
+        name: "Ciprian Rarau",
+        image: "images/speakers/ciprian.jpg",
+      	bio:"Ciprian is a software engineer and entrepreneur with 15 years of overall work experience. At OMsignal, Ciprian was the #1 employee and VP of Engineering . At OMsignal he built the entire software stack that made the company successfully raise the first financial rounds. Now Ciprian is a full time entrepreneur, he released two iOS apps around the user location and the internet of things. One of them IdeaPlaces for Evernote reached top 50 productivity and was downloaded 35K times. Ciprian is an innovator, a solution finder and a great resource for questions related to wearable devices, bluetooth devices, iOS apps and the overall software architecture. ",
+        company: "",
+        twitter: "",
+        github: ""      
       }
     ],
 
@@ -191,34 +199,34 @@ module.exports = {
     schedule: [
       {
         date: "Friday September 26th",
-        time: "17:30",
+        time: "16:30",
         speaker: "",
         name: "Registration",
         description: "Arrive at the venue and get checked in."
         //image: "images/schedule/check-in.svg"
       },
       {
-        time: "19:00",
-        name: "Snacks & Networking",
+        time: "17:00",
+        name: "Pitch Clinic",
         //image: "images/schedule/coffee.svg"
         description: "Eat food, share ideas, practice pitches, get to know fellow participants."
       },
       {
-        time: "19:20",
+        time: "17:30",
+        name: "Snacks & Networking",
+        //image: "images/schedule/coffee.svg"
+        description: "Eat food, share ideas and get to know fellow participants."
+      },
+      {
+        time: "18:30",
         name: "Welcome",
         description: "Review agenda for the weekend and introduce mentors and judges"
       },
       {
-        time: "19:30",
+        time: "18:45",
         name: "Pitches Start",
         description:"Optionally line up to give your pitch"
         //image: "images/schedule/coffee.svg"
-      },
-      {
-        time: "21:00",
-        //speaker: "Reinaldo Ferraz",
-        name: "Voting",
-        description: "Attendees vote for the top pitches"
       },
       {
         time: "21:15",
