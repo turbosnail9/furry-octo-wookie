@@ -1060,21 +1060,17 @@ a {
   min-width: 9.375rem;
   display: inline-block; }
 
-.partner-item-walle {
-  width: 20%;
-  margin: 0 0.5% 2% 0.5%;
-  min-width: 9.375rem;
-  display: inline-block; }
-
 .partner-item-singularity {
   width: 20%;
   margin: 0 0.5% 2% 0.5%;
+  padding: 0.5% 0.5% 0.5% 0.5%;
   min-width: 9.375rem;
   display: inline-block; }
 
 .partner-item-lowest {
   width: 15%;
-  margin: 0 0.5% 2% 1%;
+  margin: 1% 1% 5% 5%;
+  padding: 0.5% 0.5% 1% 1%;
   min-width: 6.25rem;
   margin-left: auto;
   margin-right: auto;
@@ -1082,26 +1078,30 @@ a {
 
 .partner-item-walle {
   width: 20%;
-  margin: 0 0.5% 2% 1%;
+  margin: 1% 1% 5% 5%;
+  padding: 0.5% 0.5% 0.5% 0.5%;
   min-width: 6.25rem;
   margin-left: auto;
   margin-right: auto;
-  display: block; }
+  display: inline-block; }
 
 .partner-item-r2d2 {
   width: 25%;
-  margin: 0 0.5% 2% 0.5%;
+  margin: 1% 2% 2% 2%;
+  padding: 0.5% 0.5% 0.5% 0.5%;
   min-width: 6.25rem;
   display: inline-block; }
 
 .partner-item-t1000 {
   width: 30%;
-  margin: 0 0.5% 2% 0.5%;
+  margin: 0 1% 2% 0.5%;
+  padding: 0.5% 0.5% 0.5% 0.5%;
   min-width: 6.25rem; }
 
 .partner-item-optimus {
   width: 45%;
-  margin: 0 0.5% 2% 0.5%;
+  margin: 0 0.5% 2% 2%;
+  padding: 0.5% 0.5% 0.5% 0.5%;
   min-width: 6.25rem;
   margin-left: auto;
   margin-right: auto;

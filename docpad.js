@@ -192,6 +192,14 @@ module.exports = {
         company: "",
         twitter: "",
         github: ""      
+      },
+      {
+      	name:"Nir Kouris",
+      	image: "images/speakers/nirK.jpg",
+      	bio:"Wearable technology evangelist in the Start-Up Nation. Advising large companies and startups around the globe.",
+        company: "",
+        twitter: "",
+        github: ""
       }
     ],
 
@@ -357,7 +365,7 @@ module.exports = {
       {
         name: "Haivision",
         logo: "images/sponsors/haivision_logo.png",
-        url: "http://www.haivision.com/"
+        url: "http://www.haivision.com/about-us/careers "
       }
     ],
     sponsorst1000: [ 
@@ -408,6 +416,16 @@ module.exports = {
         url: "http://heddoko.com/"
       },
       {
+        name: "Muse",
+        logo: "images/sponsors/muse.jpg",
+        url: "http://www.choosemuse.com/"
+      },
+      {
+      	name: "Device Factory",
+        logo: "images/sponsors/df-logo-solid-black-white.png",
+        url: "http://devicefactory.com/"
+      },
+      {
         name: "Mbient Lab",
         logo: "images/sponsors/mbient-logo.png",
         url: "https://www.mbientlab.com/"
@@ -418,37 +436,42 @@ module.exports = {
         url: "http://backtrackwear.com"
       },
       {
-        name: "Real Ventures",
-        logo: "images/sponsors/Real_Ventures_logo.png",
-        url: "http://realventures.com/en/"
-      },
-       {
         name: "Hardware Guild",
         logo: "images/sponsors/hardwareguild-logo-black-L.jpg",
         url: "http://hardwareguild.com"
       },
       {
-        name: "Muse",
-        logo: "images/sponsors/muse.jpg",
-        url: "http://www.choosemuse.com/"
-      },
-      {
         name: "Neptune",
         logo: "images/sponsors/neptune.png",
         url: "http://www.getneptune.com/"
+      },
+      {
+        name: "ProtoExchange",
+        logo: "images/sponsors/ProtoExchange_Logo_Blue.png",
+        url: "http://protoexchange.com/"
+      },
+      {
+        name: "reelyActive",
+        logo: "images/sponsors/reelyActive-Logo-1600.png",
+        url: "http://context.reelyactive.com/technology.html"
+      },
+      {
+        name: "VRVANA",
+        logo: "images/sponsors/Vrvana_logo.png",
+        url: "http://www.vrvana.com/"
       }
       
     ],
-      sponsorslowest: [
-      {
-      	name: "Device Factory",
-        logo: "images/sponsors/df-logo-solid-black-white.png",
-        url: "http://devicefactory.com/"
-      },
+      sponsorslowest: [ 
       {
       	name: "Tandem Launch",
         logo: "images/sponsors/tandem.png",
         url: "http://tandemlaunch.com/"
+      },
+      {
+        name: "Real Ventures",
+        logo: "images/sponsors/Real_Ventures_logo.png",
+        url: "http://realventures.com/en/"
       },
       {
       	name: "We Are Wearables",
