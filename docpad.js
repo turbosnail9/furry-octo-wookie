@@ -108,6 +108,13 @@ module.exports = {
       	bio:"Tom Emrich is a wearable tech evangelist. He is Founder of We Are Wearables, an organization dedicated to fostering adoption and facilitating innovation in wearable tech through events, education, collaboration and resources. He is also co-founder of Wearable App Review, the first app review site for wearables including Android Wear, Google Glass, Pebble and more. Tom writes about wearables and other emerging tech like the Internet of Things and 3D Printing for a number of sites including MobileSyrup, BetaKit and Designers of Things of which he is the Editor. He has a background in product marketing, development and strategy and has created many apps for mobile and wearable platforms including Google Glass apps Glass Eats and Stay Glassy, TTC. He is also a Google Glass Explorer.",
         company: "www.wearewearables.com",
         twitter: "TomEmrich"
+      },
+      {
+      	name: "Chris Goodine",
+      	image:"images/judges/Chris_square.jpg",
+        bio: "Chris Goodine is passionate, driven and developer-focused. He has co-founded two technology startups in the past, and is now focused on growing Thalmic Labs' Developer Community as a Developer Evangelist. Through his education in Mechatronics Engineering and his various technical roles, Chris has developed both hardware and software development skills that allow him to support developers and provide them with everything they need to make killer Myo-enabled applications. Chris loves startups and is extremely excited to be part of the growth of cutting-edge wearable technology.",
+        company: "https://www.thalmic.com/",
+        twitter: "Chris_Goodine"
       }
     ],
 
