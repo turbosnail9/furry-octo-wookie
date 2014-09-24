@@ -110,6 +110,13 @@ module.exports = {
         twitter: "TomEmrich"
       },
       {
+      	name: "Anush Elangovan",
+      	image:"images/judges/Anush_Headshot.png",
+        bio:"Anush Elangovan is Founder and CEO of <a href=\"http://realventures.com/en/\">Nod Labs</a> whose mission is to create a beautiful way for people to touchlessly and gesturally communicate with the world around them. He worked at Google building Chromebooks before founding Nod Labs. Prior to Google he worked at Agnilux, FireEye and Cisco. Anush has more than 20 patents pending or issued. He loves extreme skiing, mountaineering and long runs with his dog.",
+        company: "https://www.hellonod.com/",
+        twitter: "anush_e"
+      },
+      {
       	name: "Chris Goodine",
       	image:"images/judges/Chris_square.jpg",
         bio: "Chris Goodine is passionate, driven and developer-focused. He has co-founded two technology startups in the past, and is now focused on growing Thalmic Labs' Developer Community as a Developer Evangelist. Through his education in Mechatronics Engineering and his various technical roles, Chris has developed both hardware and software development skills that allow him to support developers and provide them with everything they need to make killer Myo-enabled applications. Chris loves startups and is extremely excited to be part of the growth of cutting-edge wearable technology.",
