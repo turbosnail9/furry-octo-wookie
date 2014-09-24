@@ -1074,7 +1074,7 @@ a {
   min-width: 6.25rem;
   margin-left: auto;
   margin-right: auto;
-  display: block; }
+  display: inline-block; }
 
 .partner-item-walle {
   width: 20%;
@@ -1099,7 +1099,7 @@ a {
   min-width: 6.25rem; }
 
 .partner-item-optimus {
-  width: 45%;
+  width: 50%;
   margin: 0 0.5% 2% 2%;
   padding: 0.5% 0.5% 0.5% 0.5%;
   min-width: 6.25rem;
@@ -1108,7 +1108,7 @@ a {
   display: block; }
 
 .partner-item-singularity {
-  width: 60%;
+  width: 70%;
   min-width: 6.25rem; }
 
 .sponsor-logo, .partner-logo {

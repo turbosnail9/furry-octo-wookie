@@ -478,6 +478,11 @@ module.exports = {
     ],
       sponsorslowest: [ 
       {
+      	name: "We Are Wearables",
+        logo: "images/sponsors/we_are_wearables.png",
+        url: "http://www.wearewearables.com/"
+      },
+      {
       	name: "Tandem Launch",
         logo: "images/sponsors/tandem.png",
         url: "http://tandemlaunch.com/"
@@ -486,11 +491,6 @@ module.exports = {
         name: "Real Ventures",
         logo: "images/sponsors/Real_Ventures_logo.png",
         url: "http://realventures.com/en/"
-      },
-      {
-      	name: "We Are Wearables",
-        logo: "images/sponsors/we_are_wearables.png",
-        url: "http://www.wearewearables.com/"
       }
     ],
 
