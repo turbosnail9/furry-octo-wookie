@@ -27,7 +27,7 @@ module.exports = {
     // Site info
     site: {
       theme: "front-in-poa",
-      url: "http://wearhacks.com/",
+      url: "http://montreal.wearhacks.com/",
       googleanalytics: "UA-52494250-1"
     },
 
